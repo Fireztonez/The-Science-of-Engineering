@@ -1,0 +1,2 @@
+recipes.remove(<twilightforest:magic_map_focus>);
+recipes.addShapeless("twilight_magicMapFocus", <twilightforest:magic_map_focus>, [<twilightforest:raven_feather>,<twilightforest:firefly>,<twilightforest:firefly>,<twilightforest:torchberries>]);

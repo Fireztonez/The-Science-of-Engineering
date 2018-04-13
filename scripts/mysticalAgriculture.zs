@@ -1,0 +1,1 @@
+recipes.addShaped(<minecraft:clay_ball> * 12, [[<mysticalagriculture:dirt_essence>, <mysticalagriculture:water_essence>, <mysticalagriculture:dirt_essence>], [<mysticalagriculture:water_essence>, <mysticalagriculture:dirt_essence>, <mysticalagriculture:water_essence>], [<mysticalagriculture:dirt_essence>, <mysticalagriculture:water_essence>, <mysticalagriculture:dirt_essence>]]);
