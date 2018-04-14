@@ -45,23 +45,7 @@ global compressionItems as IIngredient[string][string][string] = {
       enoriEmpowered: <actuallyadditions:item_crystal_empowered:5>
     },
     nugget: {
-      diamound: <betterwithmods:material:46>,
-      emerald: null,
-      redstone: null,
-      coal: null,
-      charcoal: null,
-      restonia: null,
-      palis: null,
-      diamatine: null,
-      voidCrystal: null,
-      emeradic: null,
-      enori: null,
-      restoniaEmpowered: null,
-      palisEmpowered: null,
-      diamatineEmpowered: null,
-      voidEmpowered: null,
-      emeradicEmpowered: null,
-      enoriEmpowered: null
+      diamound: <betterwithmods:material:46>
     }
   },
   metal: {
@@ -88,7 +72,6 @@ global compressionItems as IIngredient[string][string][string] = {
     nugget: {
       iron: <minecraft:iron_nugget>,
       gold: <minecraft:gold_nugget>,
-      concentratedHellfire: null,
       cobalt: <tconstruct:nuggets>,
       ardite: <tconstruct:nuggets:1>,
       manyullyn: <tconstruct:nuggets:2>,
@@ -97,3 +80,48 @@ global compressionItems as IIngredient[string][string][string] = {
     }
   }
 };
+
+/*
+global woodenBlocks as IIngredient[string][string][string] = {
+  plank: {},
+  stairs: {
+    oak: <minecraft:oak_stairs>,
+    spruce: <minecraft:spruce_stairs>,
+    birch: <minecraft:birch_stairs>,
+    jungle: <minecraft:jungle_stairs>,
+    acacia: <minecraft:acacia_stairs>,
+    darkOak: <minecraft:dark_oak_stairs>,
+    treatedWood0: <immersiveengineering:treated_wood_stairs0>,
+    treatedWood1: <immersiveengineering:treated_wood_stairs1>,
+    treatedWood2: <immersiveengineering:treated_wood_stairs2>,
+    darklandOak: <abyssalcraft:dltstairs>,
+    menril: <integrateddynamics:menril_planks_stairs>,
+    cheeseSpore: <moreplanets:cheese_spore_stairs>,
+    infectedOak: <moreplanets:infected_oak_stairs>,
+    infectedDeadOak: <moreplanets:infected_dead_oak_stairs>,
+    alienBerry: <moreplanets:alien_berry_oak_stairs>,
+    ### : <natura:overworld_stairs_maple>,
+    ### : <natura:overworld_stairs_silverbell>,
+    ### : <natura:overworld_stairs_amaranth>,
+    ### : <natura:overworld_stairs_tiger>,
+    ### : <natura:overworld_stairs_willow>,
+    ### : <natura:overworld_stairs_eucalyptus>,
+    ### : <natura:overworld_stairs_hopseed>,
+    ### : <natura:overworld_stairs_sakura>,
+    ### : <natura:overworld_stairs_redwood>,
+    ### : <natura:nether_stairs_ghostwood>,
+    ### : <natura:nether_stairs_bloodwood>,
+    ### : <natura:nether_stairs_darkwood>,
+    ### : <natura:nether_stairs_fusewood>,
+    ### : <rockhounding_surface:driftwood_stairs>,
+    ### : <rockhounding_surface:opalized_stairs>,
+    ### : <rockhounding_surface:rainbow_stairs>,
+    ### : <rockhounding_surface:redwood_stairs>,
+    ### : <rustic:stairs_olive>,
+    ### : <rustic:stairs_ironwood>,
+    ### : <thebetweenlands:weedwood_plank_stairs>,
+    ### : <tconstruct:firewood_stairs>
+  }
+};*/
+
+
