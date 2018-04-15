@@ -10,3 +10,4 @@ import mods.integrateddynamics.Squeezer;
 
 
 mods.integrateddynamics.Squeezer.removeRecipesWithOutput(<minecraft:brick>*4, null);
+mods.integrateddynamics.Squeezer.removeRecipesWithOutput(<minecraft:redstone>, null);

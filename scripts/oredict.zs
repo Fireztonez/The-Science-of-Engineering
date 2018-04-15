@@ -139,6 +139,7 @@ import crafttweaker.item.IItemTransformer;
 <ore:dyeRed>.remove(<minecraft:dye:1>,<ferdinandsflowers:flower_dyeb:*>,<rustic:wildberries>);
 <ore:dyeGreen>.remove(<minecraft:dye:2>,<ferdinandsflowers:flower_dyeb:*>);
 <ore:dyeBrown>.remove(<minecraft:dye:3>,<ferdinandsflowers:flower_dyeb:*>,<industrialforegoing:fertilizer>,<primal:earthwax_clump>,<betterwithmods:material:5>);
+<ore:dyeBrown>.remove(<betterwithmods:material:5>);
 <ore:dyeBlue>.remove(<minecraft:dye:4>,<ferdinandsflowers:flower_dyeb:*>,<moreplanets:dye_mp>,<natura:materials:8>,<extrautils2:ingredients:14>);
 <ore:dyePurple>.remove(<minecraft:dye:5>,<ferdinandsflowers:flower_dyeb:*>,<primal:sinuous_resin>);
 <ore:dyeCyan>.remove(<minecraft:dye:6>,<ferdinandsflowers:flower_dyeb:*>);

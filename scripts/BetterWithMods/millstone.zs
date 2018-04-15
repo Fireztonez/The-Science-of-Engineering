@@ -11,6 +11,7 @@ import mods.betterwithmods.Kiln;
 import crafttweaker.item.IItemStack;
 
 Mill.remove([<minecraft:brick>*4]);
+Mill.remove([<betterwithmods:raw_pastry:3>]);//Remove original flour recipe
 
 Mill.add(<betterwithaddons:tweakmat>, null, [<rockhounding_chemistry:uninspected_mineral>]);#Crush into Feldspar Powder
 
@@ -27,6 +28,13 @@ Mill.addRecipe([<ore:allCharcoal>], [<betterwithmods:material:37>]);//Add new re
 Mill.addRecipe([<primal_tech:charcoal_block>], [<betterwithmods:material:37>*2]);//Add new recipe charcoal dust
 
 Mill.addRecipe([<actuallyadditions:item_misc:5>], [<actuallyadditions:item_misc:7>]);//Crushed Black Quartz
+
+Mill.addRecipe([<horsepower:flour>],[<minecraft:wheat>]);
+Mill.addRecipe([<betterwithaddons:japanmat:4>],[<actuallyadditions:item_food:16>]);
+
+
+
+// KILN
 
 Kiln.add([<tconstruct:materials>], <tconstruct:soil>);
 

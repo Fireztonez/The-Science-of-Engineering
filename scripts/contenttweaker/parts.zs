@@ -10,7 +10,9 @@ import scripts.contenttweaker.base.addDefaultOreData;
 import scripts.contenttweaker.base.materials;
 
 var oreChunkPart = mods.contenttweaker.MaterialSystem.getPartBuilder().setName("ore_chunk").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("oreChunk").build();
+//var oreChunkPart = mods.contenttweaker.MaterialSystem.getPartBuilder().setName("ore_chunk").SetHasOverlay().setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("oreChunk").build();
 var stickWoodPart = mods.contenttweaker.MaterialSystem.getPartBuilder().setName("stick_wood").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("stickWood").build();
+//var stickWoodPart = mods.contenttweaker.MaterialSystem.getPartBuilder().setName("stick_wood").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("stickWood").build();
 
 //Ores Chunks
 materials.magnetite.registerPart("ore_chunk");
