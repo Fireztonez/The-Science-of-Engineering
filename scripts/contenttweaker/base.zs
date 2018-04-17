@@ -24,7 +24,9 @@ static materials as Material[string] = {
   "nickel": MaterialSystem.getMaterialBuilder().setName("Nickel").setColor(Color.fromHex("9ba29b")).build(),
   "uranium": MaterialSystem.getMaterialBuilder().setName("Uranium").setColor(Color.fromHex("55724a")).build(),
   "fireztonez": MaterialSystem.getMaterialBuilder().setName("Fireztonez").setColor(Color.fromHex("7c0001")).build(),
-  "mulberry": MaterialSystem.getMaterialBuilder().setName("Mulberry").setColor(Color.fromHex("b5892c")).build()
+  "mulberry": MaterialSystem.getMaterialBuilder().setName("Mulberry").setColor(Color.fromHex("b5892c")).build(),
+  "magnesite": MaterialSystem.getMaterialBuilder().setName("Magnesite").setColor(Color.fromHex("C0D0D2")).build(),
+  "sphalerite": MaterialSystem.getMaterialBuilder().setName("Sphalerite").setColor(Color.fromHex("06227B")).build()
 };
 
 /*
