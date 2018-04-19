@@ -33,6 +33,10 @@ recipes.remove(<tconstruct:materials:18>);
 recipes.remove(<tconstruct:stone_stick>);
 recipes.remove(<tconstruct:stone_torch>);
 recipes.addShaped("tinker_stoneTorch", <tconstruct:stone_torch>, [[<ore:clumpFuel>],[cordage],[<ore:stickWood->]]);
+recipes.remove(<tconstruct:slime_congealed:*>);
+recipes.remove(<tconstruct:edible:*>);
+
+
 
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom>, <ceramics:unfired_clay:5>, <liquid:alubrass>, 144, true);
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom>, <ceramics:unfired_clay:5>, <liquid:brass>, 144, true);
@@ -62,6 +66,17 @@ mods.tconstruct.Melting.removeRecipe(<liquid:stone>);
 
 mods.tconstruct.Melting.addRecipe(<liquid:stone> * 288,<tconstruct:seared:*>);
 mods.tconstruct.Melting.addRecipe(<liquid:stone> * 72,<tconstruct:materials>);
+
+
+
+mods.tconstruct.Casting.addBasinRecipe(<minecraft:glass>, null, <liquid:glass>, 1000);
+
+# tconstruct:slime_congealed:3  -- Coagulated Blood
+# tconstruct:slime_congealed
+# tconstruct:slime_congealed:1
+# tconstruct:slime_congealed:2
+# tconstruct:slime_congealed:4
+mods.tconstruct.Casting.addBasinRecipe(<tconstruct:slime_congealed:3>, null, <liquid:blood>, 1440);
 
 //Metals Melting
 //**All Iron;

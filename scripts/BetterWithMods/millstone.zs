@@ -21,16 +21,21 @@ Mill.add(<ceramics:unfired_clay:4>*2, null, [<minecraft:clay_ball>*2,<betterwith
 
 Mill.add(<tconstruct:soil>*2, null, [<ceramics:clay_soft>, <minecraft:sand>*4, <minecraft:gravel>*4]);//Grout recipes
 
-mods.betterwithmods.Mill.remove([<betterwithmods:material:18>]);//Remove original recipe coal dust
-mods.betterwithmods.Mill.remove([<betterwithmods:material:37>]);//Remove original recipe charcoal dust
+Mill.add(<rockhounding_chemistry:chemical_dusts:30>, null, [<rockhounding_oretiers:iron_ores:1>]);//Crushed Hematite, aluminium ore chunk piece need to be added. 
+
+
+Mill.remove([<betterwithmods:material:18>]);//Remove original recipe coal dust
+Mill.remove([<betterwithmods:material:37>]);//Remove original recipe charcoal dust
 Mill.addRecipe([<ore:allCoal>], [<betterwithmods:material:18>]);//Add new recipe coal dust
 Mill.addRecipe([<ore:allCharcoal>], [<betterwithmods:material:37>]);//Add new recipe charcoal dust
 Mill.addRecipe([<primal_tech:charcoal_block>], [<betterwithmods:material:37>*2]);//Add new recipe charcoal dust
 
-Mill.addRecipe([<actuallyadditions:item_misc:5>], [<actuallyadditions:item_misc:7>]);//Crushed Black Quartz
+Mill.addRecipe([<actuallyadditions:item_misc:5>], [<actuallyadditions:item_dust:7>]);//Crushed Black Quartz
 
-Mill.addRecipe([<horsepower:flour>],[<minecraft:wheat>]);
-Mill.addRecipe([<betterwithaddons:japanmat:4>],[<actuallyadditions:item_food:16>]);
+Mill.addRecipe([<minecraft:wheat>],[<horsepower:flour>]);//Wheat to flour
+Mill.addRecipe([<actuallyadditions:item_food:16>],[<betterwithaddons:japanmat:4>]);//Rice to rice flour
+Mill.addRecipe([<natura:materials:0>],[<natura:materials:1>]);//Barley to Barley flour
+
 
 
 

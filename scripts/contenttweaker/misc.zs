@@ -25,24 +25,24 @@ stoneQuartzOre.addDataValue("drops", "astralsorcery:itemcraftingcomponent");
 stoneQuartzOre.addDataValue("harvestLevel", "1");
 
 //Quartz Ore
-var netherFireztonezOre = materials.fireztonez.registerPart("ore").getData();
-addDefaultOreData(netherFireztonezOre);
-netherFireztonezOre.addDataValue("drops", "astralsorcery:itemcraftingcomponent");
-netherFireztonezOre.addDataValue("harvestLevel", "1");
+#var netherFireztonezOre = materials.fireztonez.registerPart("ore").getData();
+#addDefaultOreData(netherFireztonezOre);
+#netherFireztonezOre.addDataValue("drops", "astralsorcery:itemcraftingcomponent");
+#netherFireztonezOre.addDataValue("harvestLevel", "1");
 
 //Magnetite Chunk Ore
-materials.magnetite.registerPart("crushed_ore");
-materials.hematite.registerPart("crushed_ore");
-materials.geothite.registerPart("crushed_ore");
-materials.limonite.registerPart("crushed_ore");
-materials.siderite.registerPart("crushed_ore");
-materials.taconite.registerPart("crushed_ore");
-materials.bandediron.registerPart("crushed_ore");
-materials.copper.registerPart("crushed_ore");
-materials.tin.registerPart("crushed_ore");
-materials.bauxite.registerPart("crushed_ore");
-materials.silver.registerPart("crushed_ore");
-materials.starmetal.registerPart("crushed_ore");
-materials.nickel.registerPart("crushed_ore");
-materials.uranium.registerPart("crushed_ore");
-materials.fireztonez.registerPart("crushed_ore");
+#materials.magnetite.registerPart("crushed_ore");
+#materials.hematite.registerPart("crushed_ore");
+#materials.geothite.registerPart("crushed_ore");
+#materials.limonite.registerPart("crushed_ore");
+#materials.siderite.registerPart("crushed_ore");
+#materials.taconite.registerPart("crushed_ore");
+#materials.bandediron.registerPart("crushed_ore");
+#materials.copper.registerPart("crushed_ore");
+#materials.tin.registerPart("crushed_ore");
+#materials.bauxite.registerPart("crushed_ore");
+#materials.silver.registerPart("crushed_ore");
+#materials.starmetal.registerPart("crushed_ore");
+#materials.nickel.registerPart("crushed_ore");
+#materials.uranium.registerPart("crushed_ore");
+#materials.fireztonez.registerPart("crushed_ore");

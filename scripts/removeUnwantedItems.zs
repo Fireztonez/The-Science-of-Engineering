@@ -57,6 +57,7 @@ mods.jei.JEI.removeAndHide(<thermalfoundation:tool.axe_bronze>);
 mods.jei.JEI.removeAndHide(<thermalfoundation:tool.hoe_bronze>);
 mods.jei.JEI.removeAndHide(<thermalfoundation:material:227>);
 mods.jei.JEI.removeAndHide(<thermalfoundation:material:163>);
+mods.jei.JEI.removeAndHide(<natura:materials:2>);
 //mods.jei.JEI.removeAndHide(<exnihilocreatio:item_material:6>);
 
 mods.jei.JEI.removeAndHide(<chisel:block_charcoal2:1>);

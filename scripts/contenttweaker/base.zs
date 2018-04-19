@@ -26,7 +26,11 @@ static materials as Material[string] = {
   "fireztonez": MaterialSystem.getMaterialBuilder().setName("Fireztonez").setColor(Color.fromHex("7c0001")).build(),
   "mulberry": MaterialSystem.getMaterialBuilder().setName("Mulberry").setColor(Color.fromHex("b5892c")).build(),
   "magnesite": MaterialSystem.getMaterialBuilder().setName("Magnesite").setColor(Color.fromHex("C0D0D2")).build(),
-  "sphalerite": MaterialSystem.getMaterialBuilder().setName("Sphalerite").setColor(Color.fromHex("06227B")).build()
+  "magnesium": MaterialSystem.getMaterialBuilder().setName("Magnesium").setColor(Color.fromHex("C0D0D2")).build(),
+  "sphalerite": MaterialSystem.getMaterialBuilder().setName("Sphalerite").setColor(Color.fromHex("003094")).build(),
+  "zinc": MaterialSystem.getMaterialBuilder().setName("Zinc").setColor(Color.fromHex("868B89")).build(),
+  "ga9": MaterialSystem.getMaterialBuilder().setName("G-A9").setColor(Color.fromHex("767676")).build(),
+  "al3zn": MaterialSystem.getMaterialBuilder().setName("Al3Zn").setColor(Color.fromHex("545454")).build()
 };
 
 /*

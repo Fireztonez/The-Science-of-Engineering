@@ -10,22 +10,17 @@ import scripts.contenttweaker.base.addDefaultOreData;
 import scripts.contenttweaker.base.materials;
 
 
-var oreChunkPart = mods.contenttweaker.MaterialSystem.getPartBuilder().setName("ore_chunk").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("oreChunk").build();
-//var oreChunkPiecePart = mods.contenttweaker.MaterialSystem.getPartBuilder().setName("ore_chunk_piece").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("oreChunkPiecePart").build();
+var oreChunkPart = mods.contenttweaker.MaterialSystem.getPartBuilder().setName("ore_chunk").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setHasOverlay(true).setOreDictName("oreChunk").build();
 var stickWoodPart = mods.contenttweaker.MaterialSystem.getPartBuilder().setName("stick_wood").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("stickWood").build();
-//var barkWoodPart = mods.contenttweaker.MaterialSystem.getPartBuilder().setName("bark_wood").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("barkWood").build();
-//var stickWoodPart = mods.contenttweaker.MaterialSystem.getPartBuilder().setName("stick_wood").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("stickWood").build();
+var orePiecePart = mods.contenttweaker.MaterialSystem.getPartBuilder().setName("ore_piece").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setHasOverlay(true).setOreDictName("orePiecePart").build();
+var barkWoodPart = mods.contenttweaker.MaterialSystem.getPartBuilder().setName("bark_wood").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("barkWood").build();
 
-/*
+
 //Ores Chunks
-var oresCShunkPiecePartNames as string[] = [
-  "ore",
-  "ore_chunk",
-  "ore_chunk_piece"
-];
+
 var chunkPiecePartNames as string[] = [
   "ore_chunk",
-  "ore_chunk_piece"
+  "ore_piece"
 ];
 
 materials.magnetite.registerParts(chunkPiecePartNames);
@@ -42,12 +37,22 @@ materials.silver.registerParts(chunkPiecePartNames);
 materials.starmetal.registerParts(chunkPiecePartNames);
 materials.nickel.registerParts(chunkPiecePartNames);
 materials.uranium.registerParts(chunkPiecePartNames);
-materials.fireztonez.registerParts(oresCShunkPiecePartNames);
-materials.magnesite.registerParts(oresCShunkPiecePartNames);
 
-materials.sphalerite.registerPart("ore");*/
+var allBasicWithChunkPartNames as string[] = [
+  "ore",
+  "ore_chunk",
+  "ore_piece",
+  "nugget",
+  "ingot",
+  "block",
+  "dust"
+];
+materials.fireztonez.registerParts(allBasicWithChunkPartNames);
+materials.magnesite.registerParts(allBasicWithChunkPartNames);
 
+materials.sphalerite.registerPart("ore");
 
+/*
 materials.magnetite.registerPart("ore_chunk");
 materials.hematite.registerPart("ore_chunk");
 materials.geothite.registerPart("ore_chunk");
@@ -63,5 +68,6 @@ materials.starmetal.registerPart("ore_chunk");
 materials.nickel.registerPart("ore_chunk");
 materials.uranium.registerPart("ore_chunk");
 materials.fireztonez.registerPart("ore_chunk");
+materials.magnesite.registerPart("ore_chunk");*/
 
 materials.mulberry.registerPart("stick_wood");

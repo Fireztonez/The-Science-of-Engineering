@@ -32,8 +32,6 @@ furnace.remove(<minecraft:brick>);
 recipes.remove(<minecraft:netherbrick>);
 furnace.remove(<minecraft:netherbrick>);
 
-global stoneSiding as IItemStack = <betterwithmods:siding_rock>.withTag({texture: {Properties: {variant: "stone"}, Name: "minecraft:stone"}});
-
 //Rice to Rice Flour
 mods.betterwithmods.Mill.add(<betterwithaddons:japanmat:4>, null, [<actuallyadditions:item_food:16>]);
 
@@ -138,5 +136,9 @@ recipes.addShaped("bwm_bamboo-chime-oak", <betterwithmods:bamboo_chime>,
   [<immersiveengineering:material:4>,<primal:slat_oak>,<immersiveengineering:material:4>],
   [<minecraft:reeds>,<betterwithmods:wood_moulding>,<minecraft:reeds>]]);
 
-
+recipes.remove(<betterwithmods:material:24>);
+recipes.addShapedMirrored("bwm_archimededScrew",<betterwithmods:material:24>,
+  [[null,<rockhounding_chemistry:misc_items:2>,<ore:plateIron>],
+  [<ore:plateIron>,<rockhounding_chemistry:misc_items:2>,<ore:plateIron>],
+  [<ore:plateIron>,<rockhounding_chemistry:misc_items:2>,null]]);
 

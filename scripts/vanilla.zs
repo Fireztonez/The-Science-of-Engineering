@@ -37,7 +37,8 @@ recipes.remove(<minecraft:clay>);
 recipes.addShaped("mcSand",<minecraft:clay>,[[<minecraft:clay_ball>,<minecraft:clay_ball>,<minecraft:clay_ball>],[<minecraft:clay_ball>,<ore:sand>,<minecraft:clay_ball>],[<minecraft:clay_ball>,<minecraft:clay_ball>,<minecraft:clay_ball>]]);
 
 recipes.remove(<minecraft:chest>);
-recipes.addShaped("mcChest", <minecraft:chest>, [[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],[<ore:sidingWood>,<minecraft:brick>,<ore:sidingWood>],[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]]);
+recipes.addShaped("mcChest", <minecraft:chest>, [[<ore:sakuraWoodSiding>,<ore:sakuraWoodSiding>,<ore:sakuraWoodSiding>],[null,<primalchests:primal_chest_advanced>, null],[<ore:sakuraWoodSiding>,<ore:sakuraWoodSiding>,<ore:sakuraWoodSiding>]]);
+recipes.addShaped("mcChest", <minecraft:chest>, [[<ore:sakuraWoodSiding>,<ore:sakuraWoodSiding>,<ore:sakuraWoodSiding>],[null,<ore:ingotIron>, null],[<ore:sakuraWoodSiding>,<ore:sakuraWoodSiding>,<ore:sakuraWoodSiding>]]);
 
 recipes.remove(<minecraft:lead>);
 recipes.addShapedMirrored("mcLeadRecipes", <minecraft:lead>, [[<primal:leather_cordage>,null,null],[null, <ore:string>, null], [null, null, <primal:leather_cordage>]]);

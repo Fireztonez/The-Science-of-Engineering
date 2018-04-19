@@ -75,7 +75,7 @@ recipes.addShaped("ptFireHopper",<primal_tech:charcoal_hopper>,[[<minecraft:magm
 recipes.addShaped(<primal_tech:work_stump_upgraded>, [[null, <immcraft:shelf>, null], [<horsepower:chopping_block>, <primal_tech:work_stump>, <horsepower:chopping_block>], [null, <minecraft:log2:1>, null]]);
 
 recipes.remove(<primal_tech:wooden_basin>);
-recipes.addShaped("ptWoodenBassin" ,<primal_tech:wooden_basin>, [[<ore:logWood>, <primal:logs_split_ironwood>, <ore:logWood>], [<ore:logWood>, <primal_tech:wooden_hopper>, <ore:logWood>], [stoneSiding,null, stoneSiding]]);
+recipes.addShaped("ptWoodenBassin", <primal_tech:wooden_basin>, [[<ore:logWood>, <primal:logs_split_ironwood>, <ore:logWood>], [<ore:logWood>, <primal_tech:wooden_hopper>, <ore:logWood>], [<ore:stoneSiding>,null, <ore:stoneSiding>]]);
 
 recipes.remove(<primal_tech:stone_mallet>);
 recipes.addShapedMirrored("ptStoneMallet" ,<primal_tech:stone_mallet>, [[null, <extrautils2:decorativesolid:2>, <ore:cordageGeneral>], [null, <ore:stickWood>, <extrautils2:decorativesolid:2>], [<ore:stickWood>,null, null]]);

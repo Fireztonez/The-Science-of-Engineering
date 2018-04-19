@@ -76,7 +76,6 @@ ProfilingBench.removeByOutput(<rockhounding_chemistry:alloy_parts:81>);
 ProfilingBench.add("blockNib", <rockhounding_chemistry:alloy_parts:81>, 6);
 
 
-
 //Rod
 ProfilingBench.removeByOutput(<rockhounding_chemistry:misc_items:2>);
 ProfilingBench.add("ingotIron", <rockhounding_chemistry:misc_items:2>, 2);
@@ -126,4 +125,3 @@ ProfilingBench.add("blockBlackIron", <extendedcrafting:material>*9, 7);
 ProfilingBench.add("blockAbyssalnite", <abyssalcraft:abyingot>*9, 7);
 ProfilingBench.add("blockLiquifiedCoralium", <abyssalcraft:cingot>*9, 7);
 ProfilingBench.add("blockSilver", <immersiveengineering:metal:3>*9, 7);
-
