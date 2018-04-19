@@ -12,8 +12,10 @@ import scripts.contenttweaker.base.materials;
 
 var oreChunkPart = mods.contenttweaker.MaterialSystem.getPartBuilder().setName("ore_chunk").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setHasOverlay(true).setOreDictName("oreChunk").build();
 var stickWoodPart = mods.contenttweaker.MaterialSystem.getPartBuilder().setName("stick_wood").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("stickWood").build();
-var orePiecePart = mods.contenttweaker.MaterialSystem.getPartBuilder().setName("ore_piece").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setHasOverlay(true).setOreDictName("orePiecePart").build();
+var orePiecePart = mods.contenttweaker.MaterialSystem.getPartBuilder().setName("ore_piece").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setHasOverlay(true).setOreDictName("orePiece").build();
+var tinyDustPart = mods.contenttweaker.MaterialSystem.getPartBuilder().setName("tiny_dust").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setHasOverlay(true).setOreDictName("tinyDust").build();
 var barkWoodPart = mods.contenttweaker.MaterialSystem.getPartBuilder().setName("bark_wood").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("barkWood").build();
+var gemPart = mods.contenttweaker.MaterialSystem.getPartBuilder().setName("gem").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("gem").build();
 
 
 //Ores Chunks
@@ -37,6 +39,7 @@ materials.silver.registerParts(chunkPiecePartNames);
 materials.starmetal.registerParts(chunkPiecePartNames);
 materials.nickel.registerParts(chunkPiecePartNames);
 materials.uranium.registerParts(chunkPiecePartNames);
+materials.magnesite.registerParts(chunkPiecePartNames);
 
 var allBasicWithChunkPartNames as string[] = [
   "ore",
@@ -45,12 +48,30 @@ var allBasicWithChunkPartNames as string[] = [
   "nugget",
   "ingot",
   "block",
-  "dust"
+  "dust",
+  "molten"
 ];
 materials.fireztonez.registerParts(allBasicWithChunkPartNames);
-materials.magnesite.registerParts(allBasicWithChunkPartNames);
 
-materials.sphalerite.registerPart("ore");
+var basicAlloyParts as string[] = [
+  "nugget",
+  "ingot",
+  "block",
+  "dust",
+  "tiny_dust",
+  "molten"
+];
+materials.magnesium.registerParts(basicAlloyParts);
+materials.zinc.registerParts(basicAlloyParts);
+
+var oreCrystalParts as string[] = [
+  "gem",
+  "dust",
+  "tiny_dust"
+];
+materials.sphalerite.registerParts(oreCrystalParts);
+materials.aluminium.registerPart("tiny_dust");
+
 
 /*
 materials.magnetite.registerPart("ore_chunk");

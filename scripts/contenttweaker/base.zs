@@ -19,6 +19,7 @@ static materials as Material[string] = {
   "copper": MaterialSystem.getMaterialBuilder().setName("Copper").setColor(Color.fromHex("476957")).build(),
   "tin": MaterialSystem.getMaterialBuilder().setName("Tin").setColor(Color.fromHex("cccccc")).build(),
   "bauxite": MaterialSystem.getMaterialBuilder().setName("Bauxite").setColor(Color.fromHex("795647")).build(),
+  "aluminium": MaterialSystem.getMaterialBuilder().setName("Aluminium").setColor(Color.fromHex("868B89")).build(),
   "silver": MaterialSystem.getMaterialBuilder().setName("Silver").setColor(Color.fromHex("c0c8cc")).build(),
   "starmetal": MaterialSystem.getMaterialBuilder().setName("Starmetal").setColor(Color.fromHex("030056")).build(),
   "nickel": MaterialSystem.getMaterialBuilder().setName("Nickel").setColor(Color.fromHex("9ba29b")).build(),
