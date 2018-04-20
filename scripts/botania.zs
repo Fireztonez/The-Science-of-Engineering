@@ -18,6 +18,7 @@
 #  [iron,null,iron]]);
 
 recipes.remove(<botania:petal:*>);
+recipes.remove(<botania:mushroom:*>);
 
 recipes.remove(<botania:spreader>);
 recipes.addShaped("botania_mana-spreader_5", <botania:spreader>, [[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>], [<botania:mushroom:5>, metals.copper.block, <botania:mushroom:5>], [<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]]);

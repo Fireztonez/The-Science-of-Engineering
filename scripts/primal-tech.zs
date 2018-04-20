@@ -68,7 +68,7 @@ recipes.remove(<primal_tech:clay_kiln>);
 recipes.addShaped("ptCLayKiln",<primal_tech:clay_kiln>,[[<minecraft:clay_ball>,<minecraft:clay_ball>,<minecraft:clay_ball>],[<minecraft:clay_ball>,null,<minecraft:clay_ball>],[<minecraft:clay>,<quark:stone_limestone_slab>,<minecraft:clay>]]);
 
 recipes.remove(<primal_tech:wooden_hopper>);
-recipes.addShaped("ptWoodenHopper",<primal_tech:wooden_hopper>,[[<minecraft:log:0>,<betterwithmods:bark:4>,<minecraft:log:0>],[<minecraft:log:0>,<immcraft:chest>,<minecraft:log:0>],[null,<minecraft:log:0>,null]]);
+recipes.addShaped("ptWoodenHopper",<primal_tech:wooden_hopper>,[[<ore:sawBarkWood>,<minecraft:web>,<ore:sawBarkWood>],[<ore:sawBarkWood>,<wopper:wopper>,<ore:sawBarkWood>],[null,<ore:sawBarkWood>,null]]);
 
 recipes.addShaped("ptFireHopper",<primal_tech:charcoal_hopper>,[[<minecraft:magma>,null,<minecraft:magma>],[<minecraft:magma>,<primal_tech:wooden_hopper>,<minecraft:magma>],[null,<minecraft:magma>,null]]);
 

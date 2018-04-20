@@ -142,3 +142,14 @@ recipes.addShapedMirrored("bwm_archimededScrew",<betterwithmods:material:24>,
   [<ore:plateIron>,<rockhounding_chemistry:misc_items:2>,<ore:plateIron>],
   [<ore:plateIron>,<rockhounding_chemistry:misc_items:2>,null]]);
 
+recipes.remove(<betterwithmods:wicker>);
+recipes.addShaped("bwm_wickerSingle", <betterwithmods:wicker>, 
+  [[null, null, null],
+  [cane,cane,cane],
+  [cane,cane,cane]]);
+
+recipes.addShapedMirrored("bwm_redstoneEmitter",<betterwithaddons:redstone_emitter>,
+  [[<betterwithmods:aesthetic:12>,<betterwithmods:aesthetic:12>,<betterwithmods:aesthetic:12>],
+  [rope,<botania:mushroom:14>,<ore:grates>],
+  [<ore:sakuraWoodSiding>,<ore:sakuraWoodSiding>,<ore:sakuraWoodSiding>]]);
+

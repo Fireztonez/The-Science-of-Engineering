@@ -41,6 +41,13 @@ materials.nickel.registerParts(chunkPiecePartNames);
 materials.uranium.registerParts(chunkPiecePartNames);
 materials.magnesite.registerParts(chunkPiecePartNames);
 
+var oreChunkPiecePartNames as string[] = [
+  "ore",
+  "ore_chunk",
+  "ore_piece"
+];
+materials.magnesite.registerParts(oreChunkPiecePartNames);
+
 var allBasicWithChunkPartNames as string[] = [
   "ore",
   "ore_chunk",
@@ -63,8 +70,12 @@ var basicAlloyParts as string[] = [
 ];
 materials.magnesium.registerParts(basicAlloyParts);
 materials.zinc.registerParts(basicAlloyParts);
+materials.ga9.registerParts(basicAlloyParts);
+materials.al3zn.registerParts(basicAlloyParts);
+
 
 var oreCrystalParts as string[] = [
+  "ore",
   "gem",
   "dust",
   "tiny_dust"
@@ -73,22 +84,23 @@ materials.sphalerite.registerParts(oreCrystalParts);
 materials.aluminium.registerPart("tiny_dust");
 
 
-/*
-materials.magnetite.registerPart("ore_chunk");
-materials.hematite.registerPart("ore_chunk");
-materials.geothite.registerPart("ore_chunk");
-materials.limonite.registerPart("ore_chunk");
-materials.siderite.registerPart("ore_chunk");
-materials.taconite.registerPart("ore_chunk");
-materials.bandediron.registerPart("ore_chunk");
-materials.copper.registerPart("ore_chunk");
-materials.tin.registerPart("ore_chunk");
-materials.bauxite.registerPart("ore_chunk");
-materials.silver.registerPart("ore_chunk");
-materials.starmetal.registerPart("ore_chunk");
-materials.nickel.registerPart("ore_chunk");
-materials.uranium.registerPart("ore_chunk");
-materials.fireztonez.registerPart("ore_chunk");
-materials.magnesite.registerPart("ore_chunk");*/
+materials.blood.registerPart("block");
+
+materials.greenSlime.registerPart("molten");
+materials.blueSlime.registerPart("molten");
+materials.whiteSlime.registerPart("molten");
+materials.magmaSlime.registerPart("molten");
 
 materials.mulberry.registerPart("stick_wood");
+
+materials.maple.registerPart("bark_wood");
+materials.silverbell.registerPart("bark_wood");
+materials.Amaranth.registerPart("bark_wood");
+materials.tigerwood.registerPart("bark_wood");
+materials.willow.registerPart("bark_wood");
+materials.eucalyptus.registerPart("bark_wood");
+materials.Hopseed.registerPart("bark_wood");
+materials.sakura.registerPart("bark_wood");
+materials.ghostwood.registerPart("bark_wood");
+materials.darkwood.registerPart("bark_wood");
+materials.fusewood.registerPart("bark_wood");

@@ -7,7 +7,7 @@ mods.abyssalcraft.InfusionRitual.addRitual("BeneathTeleporter", 0, -1, 1500, fal
 [<abyssalcraft:cpearl>, <abyssalcraft:stone:7>, <magnum:moon_pearl>, <abyssalcraft:stone:7>, <abyssalcraft:cpearl>, <abyssalcraft:stone:7>, <magnum:moon_pearl>, <ore:coalBlocks>
 ], false, ["ench"]); game.setLocalization("ac.ritual.BeneathTeleporterInfusion", "Infusion of The Beneath Teleporter block! To go in the dimension, right-click on the block!");
 
-mods.abyssalcraft.InfusionRitual.addRitual("AlloyKilnBricks", 0, -1, 350, false, <immersiveengineering:stone_decoration:10>, <primal:adobebrick>,
+mods.abyssalcraft.InfusionRitual.addRitual("AlloyKilnBricks", 0, -1, 1000, false, <immersiveengineering:stone_decoration:10>, <primal:adobebrick>,
 [<actuallyadditions:item_dust:7>, <minecraft:sand:1>, <betterwithmods:material:18>, <betterwithmods:material:37>, <actuallyadditions:item_dust:7>, <minecraft:sand:1>, <betterwithmods:material:18>, <betterwithmods:material:37>
 ], false, ["ench"]); game.setLocalization("ac.ritual.AlloyKilnBicksInfusion", "Infusion of Alloy Kiln Bricks! Construct a 2x2x2 structure with those brick's and right-click it with the Engineer's Hammer!");
 

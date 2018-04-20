@@ -48,4 +48,5 @@ global water as IOreDictEntry = <ore:water>;
 global hempString as IItemStack = <betterwithmods:material:3>;
 global manaString as IItemStack = <botania:manaresource:16>;
 global hempCordage as IItemStack = <immersiveengineering:material:4>;
+global rope as IItemStack = <betterwithmods:rope>;
 

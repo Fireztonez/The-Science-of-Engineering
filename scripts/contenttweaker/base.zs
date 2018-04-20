@@ -31,7 +31,24 @@ static materials as Material[string] = {
   "sphalerite": MaterialSystem.getMaterialBuilder().setName("Sphalerite").setColor(Color.fromHex("003094")).build(),
   "zinc": MaterialSystem.getMaterialBuilder().setName("Zinc").setColor(Color.fromHex("868B89")).build(),
   "ga9": MaterialSystem.getMaterialBuilder().setName("G-A9").setColor(Color.fromHex("767676")).build(),
-  "al3zn": MaterialSystem.getMaterialBuilder().setName("Al3Zn").setColor(Color.fromHex("545454")).build()
+  "al3zn": MaterialSystem.getMaterialBuilder().setName("Al3Zn").setColor(Color.fromHex("545454")).build(),
+  "greenSlime": MaterialSystem.getMaterialBuilder().setName("Green Slime").setColor(Color.fromHex("50B067")).build(),
+  "blueSlime": MaterialSystem.getMaterialBuilder().setName("Blue Slime").setColor(Color.fromHex("BEBB6E")).build(),
+  "whiteSlime": MaterialSystem.getMaterialBuilder().setName("White Slime").setColor(Color.fromHex("BFC2C1")).build(),
+  "magmaSlime": MaterialSystem.getMaterialBuilder().setName("Magma Slime").setColor(Color.fromHex("B7B84E")).build(),
+  "blood": MaterialSystem.getMaterialBuilder().setName("Blood").setColor(Color.fromHex("00003A")).build(),
+  #-=- Add all bark
+  "maple": MaterialSystem.getMaterialBuilder().setName("Maple Wood").setColor(Color.fromHex("000000")).build(),
+  "silverbell": MaterialSystem.getMaterialBuilder().setName("Silverbell Wood").setColor(Color.fromHex("000000")).build(),
+  "Amaranth": MaterialSystem.getMaterialBuilder().setName("Amaranth Wood").setColor(Color.fromHex("000000")).build(),
+  "tigerwood": MaterialSystem.getMaterialBuilder().setName("Tiger Wood").setColor(Color.fromHex("000000")).build(),
+  "willow": MaterialSystem.getMaterialBuilder().setName("Willow Wood").setColor(Color.fromHex("000000")).build(),
+  "eucalyptus": MaterialSystem.getMaterialBuilder().setName("Eucalyptus Wood").setColor(Color.fromHex("000000")).build(),
+  "Hopseed": MaterialSystem.getMaterialBuilder().setName("Hopseed").setColor(Color.fromHex("000000")).build(),
+  "sakura": MaterialSystem.getMaterialBuilder().setName("Sakura Wood").setColor(Color.fromHex("000000")).build(),
+  "ghostwood": MaterialSystem.getMaterialBuilder().setName("Ghostwood").setColor(Color.fromHex("000000")).build(),
+  "darkwood": MaterialSystem.getMaterialBuilder().setName("Darkwood").setColor(Color.fromHex("000000")).build(),
+  "fusewood": MaterialSystem.getMaterialBuilder().setName("Fusewood").setColor(Color.fromHex("000000")).build()
 };
 
 /*

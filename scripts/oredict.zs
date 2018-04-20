@@ -164,6 +164,7 @@ import crafttweaker.item.IItemTransformer;
 <ore:petalLightGray>.remove(<botania:mushroom:8>);
 <ore:petalCyan>.remove(<botania:mushroom:9>);
 <ore:petalPurple>.remove(<botania:mushroom:10>);
+<ore:petalBlue>.remove(<botania:mushroom:11>);
 <ore:petalBrown>.remove(<botania:mushroom:12>);
 <ore:petalGreen>.remove(<botania:mushroom:13>);
 <ore:petalRed>.remove(<botania:mushroom:14>);
@@ -184,6 +185,7 @@ import crafttweaker.item.IItemTransformer;
 
 //recipes.addShaped("ptWorkStumpMK2",<primal_tech:work_stump_upgraded>,[[<ore:plankWood>,null,<ore:plankWood>],[<ore:rarePlankWood>,<minecraft:stone>,<ore:rarePlankWood>],[<ore:rareLogWood>,null,<ore:rareLogWood>]]);
 
+<ore:sawBarkWood>.add(<betterwithmods:bark:*>,<betterwithaddons:japanmat:35>,<betterwithaddons:japanmat:36>);
 
 
 recipes.remove(<quark:stone_limestone_slab>);

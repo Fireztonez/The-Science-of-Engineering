@@ -54,6 +54,12 @@ recipes.remove(<minecraft:jungle_boat>);
 recipes.remove(<minecraft:acacia_boat>);
 recipes.remove(<minecraft:dark_oak_boat>);
 
+recipes.remove(<minecraft:web>);
+recipes.addShaped("vanilla_web", <minecraft:web>,
+  [[<ore:stickWood>,str,<ore:stickWood>],
+  [str,<botania:manaresource:16>,str],
+  [<ore:stickWood>,str,<ore:stickWood>]]);
+
 
 //recipes.addShaped(<immersivepetroleum:upgrades:4>, [[<immersiveengineering:material>, null, <immersiveengineering:material>], [<immersiveengineering:material>, null, <immersiveengineering:material>], [<betterwithengineering:ie_siding>, null, <betterwithengineering:ie_siding>]]);
 
@@ -100,8 +106,8 @@ recipes.addShaped(<minecraft:book>,
   [<minecraft:leather>,<minecraft:paper>,<minecraft:paper>]]);
 
 
-//recipes.removeByRecipeName("natura:common/string");
-//recipes.removeByRecipeName("immersiveengineering:material/string");
+recipes.removeByRecipeName("natura:common/string");
+recipes.removeByRecipeName("immersiveengineering:material/string");
 
 recipes.addShaped("vanilla_cotton-to-string", <minecraft:string>*2,
   [[<natura:materials:3>,<natura:materials:3>,<natura:materials:3>],
