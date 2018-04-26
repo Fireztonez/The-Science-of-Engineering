@@ -1,0 +1,1 @@
+recipes.addShapeless("temp_sphalerite", <primal:zinc_dust>, [<contenttweaker:material_part:95>.giveBack(<rockhounding_chemistry:chemical_dusts:45>), <pickletweaks:grass_mesh>]);

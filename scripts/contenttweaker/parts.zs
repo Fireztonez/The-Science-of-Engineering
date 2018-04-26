@@ -14,8 +14,11 @@ var oreChunkPart = mods.contenttweaker.MaterialSystem.getPartBuilder().setName("
 var stickWoodPart = mods.contenttweaker.MaterialSystem.getPartBuilder().setName("stick_wood").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("stickWood").build();
 var orePiecePart = mods.contenttweaker.MaterialSystem.getPartBuilder().setName("ore_piece").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setHasOverlay(true).setOreDictName("orePiece").build();
 var tinyDustPart = mods.contenttweaker.MaterialSystem.getPartBuilder().setName("tiny_dust").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setHasOverlay(true).setOreDictName("tinyDust").build();
+var microDustPart = mods.contenttweaker.MaterialSystem.getPartBuilder().setName("micro_dust").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setHasOverlay(true).setOreDictName("microDust").build();
 var barkWoodPart = mods.contenttweaker.MaterialSystem.getPartBuilder().setName("bark_wood").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("barkWood").build();
 var gemPart = mods.contenttweaker.MaterialSystem.getPartBuilder().setName("gem").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("gem").build();
+var ballPart = mods.contenttweaker.MaterialSystem.getPartBuilder().setName("ball").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("ball").build();
+var dirtyPart = mods.contenttweaker.MaterialSystem.getPartBuilder().setName("dirty").setPartType(mods.contenttweaker.MaterialSystem.getPartType("item")).setOreDictName("dirty").build();
 
 
 //Ores Chunks
@@ -40,6 +43,24 @@ materials.starmetal.registerParts(chunkPiecePartNames);
 materials.nickel.registerParts(chunkPiecePartNames);
 materials.uranium.registerParts(chunkPiecePartNames);
 materials.magnesite.registerParts(chunkPiecePartNames);
+materials.lead.registerParts(chunkPiecePartNames);
+materials.gold.registerParts(chunkPiecePartNames);
+materials.yellorite.registerParts(chunkPiecePartNames);
+//materials.resonating.registerParts(chunkPiecePartNames);
+materials.osmium.registerParts(chunkPiecePartNames);
+materials.iridium.registerParts(chunkPiecePartNames);
+materials.platinum.registerParts(chunkPiecePartNames);
+materials.abyssalnite.registerParts(chunkPiecePartNames);
+materials.cobalt.registerParts(chunkPiecePartNames);
+materials.ardite.registerParts(chunkPiecePartNames);
+
+var chunkPieceMoltenPartNames as string[] = [
+  "ore_chunk",
+  "ore_piece",
+  "molten"
+];
+materials.osmium.registerParts(chunkPieceMoltenPartNames);
+materials.manainfused.registerParts(chunkPieceMoltenPartNames);
 
 var oreChunkPiecePartNames as string[] = [
   "ore",
@@ -81,10 +102,25 @@ var oreCrystalParts as string[] = [
   "tiny_dust"
 ];
 materials.sphalerite.registerParts(oreCrystalParts);
-materials.aluminium.registerPart("tiny_dust");
+var microTinyDustParts as string[] = [
+  "micro_dust",
+  "tiny_dust"
+];
+materials.aluminium.registerParts(microTinyDustParts);
 
+var moltenDirtyGemParts as string[] = [
+  "molten",
+  "dirty",
+  "gem"
+];
+materials.redstone.registerParts(moltenDirtyGemParts);
 
-materials.blood.registerPart("block");
+var moltenBallBlock as string[] = [
+  "molten",
+  "block",
+  "ball"
+];
+materials.bloodyBlood.registerParts(moltenBallBlock);
 
 materials.greenSlime.registerPart("molten");
 materials.blueSlime.registerPart("molten");

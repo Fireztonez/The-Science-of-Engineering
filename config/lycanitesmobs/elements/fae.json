@@ -1,0 +1,14 @@
+{
+  "name": "fae",
+  "loadDefault": false,
+  "buffs": [
+    "minecraft:regeneration"
+  ],
+  "debuffs": [
+    "minecraft:poison"
+  ],
+  "components": [
+    "water",
+    "order"
+  ]
+}

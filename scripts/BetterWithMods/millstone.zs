@@ -1,3 +1,4 @@
+#priority 849
 #http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/BetterWithMods/Mill/
 
 #mods.betterwithmods.Mill.addRecipe(IIngredient[] inputs, IItemStack[] outputs);
@@ -10,6 +11,7 @@ import mods.betterwithmods.Mill;
 import mods.betterwithmods.Kiln;
 import crafttweaker.item.IItemStack;
 
+
 Mill.remove([<minecraft:brick>*4]);
 Mill.remove([<betterwithmods:raw_pastry:3>]);//Remove original flour recipe
 
@@ -21,8 +23,7 @@ Mill.add(<ceramics:unfired_clay:4>*2, null, [<minecraft:clay_ball>*2,<betterwith
 
 Mill.add(<tconstruct:soil>*2, null, [<ceramics:clay_soft>, <minecraft:sand>*4, <minecraft:gravel>*4]);//Grout recipes
 
-Mill.add(<rockhounding_chemistry:chemical_dusts:30>, null, [<rockhounding_oretiers:iron_ores:1>]);//Crushed Hematite, aluminium ore chunk piece need to be added. 
-
+Mill.addRecipe([<rockhounding_oretiers:iron_ores:1>], [<rockhounding_chemistry:chemical_dusts:30>, microDustAluminium]);//Crushed Hematite, aluminium ore chunk piece need to be added. 
 
 Mill.remove([<betterwithmods:material:18>]);//Remove original recipe coal dust
 Mill.remove([<betterwithmods:material:37>]);//Remove original recipe charcoal dust
@@ -36,7 +37,9 @@ Mill.addRecipe([<minecraft:wheat>],[<horsepower:flour>]);//Wheat to flour
 Mill.addRecipe([<actuallyadditions:item_food:16>],[<betterwithaddons:japanmat:4>]);//Rice to rice flour
 Mill.addRecipe([<natura:materials:0>],[<natura:materials:1>]);//Barley to Barley flour
 
+Mill.addRecipe([<ore:barkWood>],[<primal:tannin_ground>]);
 
+Mill.addRecipe([<contenttweaker:material_part:70>],[<contenttweaker:material_part:71>]);//Sphalerite gem to Sphalerite Dust
 
 
 // KILN

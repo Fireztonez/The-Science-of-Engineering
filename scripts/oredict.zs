@@ -17,9 +17,9 @@ import crafttweaker.item.IItemTransformer;
 <ore:water>.add(<primal_tech:fluid_bladder:1>.withTag({Fluid:{FluidName:"water", Amount: 1000}}));
 
 #Molten Copper
-<ore:liquidCopper>.add(<forge:bucketfilled>.withTag({fluid:{FluidName:"copper", Amount: 1000}}));
+/*<ore:liquidCopper>.add(<forge:bucketfilled>.withTag({fluid:{FluidName:"copper", Amount: 1000}}));
 <ore:liquidCopper>.add(<ceramics:clay_bucket>.withTag({fluid:{FluidName:"copper", Amount: 1000}}));
-<ore:liquidCopper>.add(<ic2:fluid_cell>.withTag({fluid:{FluidName:"copper", Amount: 1000}}));
+<ore:liquidCopper>.add(<ic2:fluid_cell>.withTag({fluid:{FluidName:"copper", Amount: 1000}}));*/
 
 #ore ore:dustWheat
 <ore:dustWheat>.remove(<appliedenergistics2:material:4>);
@@ -50,6 +50,8 @@ import crafttweaker.item.IItemTransformer;
 
 #ore:plankWood
 <ore:plankWood>.add(<primal:planks:*>,<immersiveengineering:treated_wood:*>);
+<ore:plankWood>.add(<rockhounding_surface:fossil_planks:*>,<rockhounding_surface:oak_chiseled:*>,<rockhounding_surface:spruce_chiseled:*>,<rockhounding_surface:kauri_chiseled:*>,<rockhounding_surface:mophane_chiseled:*>,<rockhounding_surface:palm_chiseled:*>,<rockhounding_surface:pine_chiseled:*>,<rockhounding_surface:driftwood_chiseled:*>,<rockhounding_surface:araucaria_chiseled:*>,<rockhounding_surface:betula_chiseled:*>,<rockhounding_surface:castano_chiseled:*>,<rockhounding_surface:azurite_chiseled:*>,<rockhounding_surface:beech_chiseled:*>,<rockhounding_surface:teredo_chiseled:*>,<rockhounding_surface:redwood_chiseled:*>);
+
 
 #ore:slabWood
 <ore:slabWood>.add(<minecraft:wooden_slab>,<immersiveengineering:treated_wood_slab>);
@@ -102,7 +104,7 @@ import crafttweaker.item.IItemTransformer;
 <ore:toolAxe>.add(<mekanismtools:steelaxe>);
 
 #ore:peltAll
-<ore:peltAll>.add(<primal:pelt_cow>);
+<ore:peltAll>.add(<primal:pelt_cow>,<primal:pelt_animal>,<primal:pelt_animal_large>,<primal:pelt_bear_black>,<primal:pelt_bear_brown>,<primal:pelt_bear_polar>,<primal:pelt_dog>,<primal:pelt_pig>,<primal:pelt_shark>,<primal:pelt_mooshroom>,<primal:pelt_sheep>,<primal:pelt_ovis>,<primal:pelt_horse>,<primal:pelt_donkey>,<primal:pelt_mule>,<primal:pelt_llama>,<primal:pelt_wolf>);
 
 
 #ore:paper
@@ -186,6 +188,37 @@ import crafttweaker.item.IItemTransformer;
 //recipes.addShaped("ptWorkStumpMK2",<primal_tech:work_stump_upgraded>,[[<ore:plankWood>,null,<ore:plankWood>],[<ore:rarePlankWood>,<minecraft:stone>,<ore:rarePlankWood>],[<ore:rareLogWood>,null,<ore:rareLogWood>]]);
 
 <ore:sawBarkWood>.add(<betterwithmods:bark:*>,<betterwithaddons:japanmat:35>,<betterwithaddons:japanmat:36>);
+
+<ore:oreMagnetite>.add(<contenttweaker:material_part:4>);
+<ore:oreHematite>.add(<contenttweaker:material_part:6>);
+<ore:oreGoethite>.add(<contenttweaker:material_part:8>);
+<ore:oreLimonite>.add(<contenttweaker:material_part:10>);
+<ore:oreSiderite>.add(<contenttweaker:material_part:12>);
+<ore:oreTaconite>.add(<contenttweaker:material_part:14>);
+<ore:oreBif>.add(<contenttweaker:material_part:16>);
+<ore:oreCopper>.add(<contenttweaker:material_part:18>);
+<ore:oreTin>.add(<contenttweaker:material_part:20>);
+<ore:oreAluminum>.add(<contenttweaker:material_part:22>);
+<ore:oreSilver>.add(<contenttweaker:material_part:24>);
+<ore:oreAstralStarmetal>.add(<contenttweaker:material_part:26>);
+<ore:oreNickel>.add(<contenttweaker:material_part:28>);
+<ore:oreUranium>.add(<contenttweaker:material_part:30>);
+<ore:oreMagnesite>.add(<contenttweaker:material_part:32>);
+<ore:oreLead>.add(<contenttweaker:material_part:34>);
+<ore:oreGold>.add(<contenttweaker:material_part:36>);
+<ore:oreYellorite>.add(<contenttweaker:material_part:38>);
+<ore:oreOsmium>.add(<contenttweaker:material_part:40>);
+<ore:oreIridium>.add(<contenttweaker:material_part:42>);
+<ore:orePlatinum>.add(<contenttweaker:material_part:44>);
+<ore:oreAbyssalnite>.add(<contenttweaker:material_part:46>);
+<ore:oreCobalt>.add(<contenttweaker:material_part:48>);
+<ore:oreArdite>.add(<contenttweaker:material_part:50>);
+<ore:oreMithril>.add(<contenttweaker:material_part:55>);
+<ore:oreFireztonez>.add(<contenttweaker:material_part:62>);
+
+
+<ore:oreResonating>.add(<deepresonance:resonating_ore:1>,<deepresonance:resonating_ore:2>);
+
 
 
 recipes.remove(<quark:stone_limestone_slab>);

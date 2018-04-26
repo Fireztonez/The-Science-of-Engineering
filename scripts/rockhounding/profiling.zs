@@ -119,8 +119,8 @@ ProfilingBench.add("blockPurplegold", <rockhounding_chemistry:alloy_items_deco:2
 ProfilingBench.add("blockNib", <rockhounding_chemistry:alloy_items_deco:31>*9, 7);
 ProfilingBench.add("blockGold", <minecraft:gold_ingot>*9, 7);
 ProfilingBench.add("blockCopper", <immersiveengineering:metal>*9, 7);
-ProfilingBench.add("blockTin", <mekanism:ingot:2>*9, 7);
-ProfilingBench.add("blockBronze", <thermalfoundation:material:129>*9, 7);
+ProfilingBench.add("blockTin", <thermalfoundation:material:129>*9, 7);
+ProfilingBench.add("blockBronze", <mekanism:ingot:2>*9, 7);
 ProfilingBench.add("blockBlackIron", <extendedcrafting:material>*9, 7);
 ProfilingBench.add("blockAbyssalnite", <abyssalcraft:abyingot>*9, 7);
 ProfilingBench.add("blockLiquifiedCoralium", <abyssalcraft:cingot>*9, 7);

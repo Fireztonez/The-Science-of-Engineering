@@ -1,0 +1,733 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "galacticraftcore:basic_block_core:5",
+            "abyssalcraft:abycopore",
+            "galacticraftcore:basic_block_moon",
+            "galacticraftplanets:mars",
+            "galacticraftplanets:venus:7",
+            "immersiveengineering:ore",
+            "moreplanets:koentus_block:7",
+            "moreplanets:diona_block:7",
+            "moreplanets:chalos_block:7",
+            "moreplanets:nibiru_ore:8",
+            "moreplanets:fronos_ore:3",
+            "thermalfoundation:ore",
+            "ic2:resource:1",
+            "mekanism:oreblock:1"
+          ] 
+        },
+        "replaceStrategy": "REPLACE_ITEMS_IF_SELECTED"
+      },
+      "drops": [
+        {
+          "selector": {
+            "silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "contenttweaker:material_part:18"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "silktouch": "REQUIRED"
+          },
+          "item": {
+            "items": [
+              "immersiveengineering:ore"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "abyssalcraft:abytinore",
+            "galacticraftcore:basic_block_core:6",
+            "galacticraftcore:basic_block_moon:1",
+            "galacticraftplanets:mars:1",
+            "galacticraftplanets:venus:11",
+            "ic2:resource:3",
+            "mekanism:oreblock:2",
+            "moreplanets:diona_block:6",
+            "moreplanets:koentus_block:6",
+            "moreplanets:chalos_block:6",
+            "moreplanets:nibiru_ore:9",
+            "moreplanets:fronos_ore:2",
+            "thermalfoundation:ore:1"
+          ] 
+        },
+        "replaceStrategy": "REPLACE_ITEMS_IF_SELECTED"
+      },
+      "drops": [
+        {
+          "selector": {
+            "silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "contenttweaker:material_part:20"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "silktouch": "REQUIRED"
+          },
+          "item": {
+            "items": [
+              "mekanism:oreblock:2"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "galacticraftcore:basic_block_core:7",
+            "galacticraftplanets:asteroids_block:3",
+            "galacticraftplanets:venus:6",
+            "immersiveengineering:ore:1",
+            "moreplanets:diona_block:8",
+            "moreplanets:koentus_block:8",
+            "moreplanets:chalos_block:8",
+            "moreplanets:nibiru_ore:7",
+            "moreplanets:fronos_ore:4",
+            "thermalfoundation:ore:4"
+          ] 
+        },
+        "replaceStrategy": "REPLACE_ITEMS_IF_SELECTED"
+      },
+      "drops": [
+        {
+          "selector": {
+            "silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "contenttweaker:material_part:22"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "silktouch": "REQUIRED"
+          },
+          "item": {
+            "items": [
+              "immersiveengineering:ore:1"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "minecraft:iron_ore",
+            "cyclicmagic:nether_iron_ore",
+            "cyclicmagic:end_iron_ore",
+            "galacticraftplanets:mars:3",
+            "galacticraftplanets:asteroids_block:5",
+            "moreplanets:koentus_block:9",
+            "moreplanets:chalos_block:5",
+            "moreplanets:nibiru_ore:1",
+            "moreplanets:fronos_ore",
+            "rockhounding_oretiers:iron_ores:2",
+            "abyssalcraft:abyiroore"
+          ] 
+        },
+        "replaceStrategy": "REPLACE_ITEMS_IF_SELECTED"
+      },
+      "drops": [
+        {
+          "selector": {
+            "silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "contenttweaker:material_part:8"
+            ]
+          },
+          "xpReplaceStrategy": "REPLACE"
+        },
+        {
+          "selector": {
+            "silktouch": "REQUIRED"
+          },
+          "item": {
+            "items": [
+              "minecraft:iron_ore"
+            ]
+          }
+        }
+      ]
+    },
+    {
+        "match": {
+          "blocks": {
+            "blocks": [
+              "contenttweaker:sub_block_holder_0:6"
+            ] 
+          }
+        },
+        "drops": [
+          {
+            "selector": {
+              "silktouch": "EXCLUDED"
+            },
+            "item": {
+              "items": [
+                "contenttweaker:material_part:32"
+              ]
+            }
+          }
+        ]
+    },
+    {
+        "match": {
+          "blocks": {
+            "blocks": [
+              "contenttweaker:sub_block_holder_0:10"
+            ]
+          },
+          "verticalRange": {
+            "min": 0,
+            "max": 20
+          }
+        },
+        "drops": [
+          {
+            "selector": {
+              "silktouch": "EXCLUDED"
+            },
+            "item": {
+              "items": [
+                "contenttweaker:material_part:70"
+              ]
+            }
+          }
+        ]
+    },
+    {
+        "match": {
+          "blocks": {
+            "blocks": [
+              "rockhounding_oretiers:iron_ores",
+              "primal:ore_magnetite:1",
+              "primal:ore_magnetite"
+            ]
+          }
+        },
+ 
+        "drops": [
+          {
+            "selector": {
+              "silktouch": "EXCLUDED"
+            },
+            "item": {
+              "items": [
+                "contenttweaker:material_part:4"
+              ]
+            }
+          },
+          {
+            "selector": {
+              "silktouch": "REQUIRED"
+            },
+            "item": {
+              "items": [
+                "rockhounding_oretiers:iron_ores"
+              ]
+            }
+          }
+        ]
+    },
+    {
+        "match": {
+          "blocks": {
+            "blocks": [
+              "rockhounding_oretiers:iron_ores:1"
+            ]
+          }
+        },
+ 
+        "drops": [
+          {
+            "selector": {
+              "silktouch": "EXCLUDED"
+            },
+            "item": {
+              "items": [
+                "contenttweaker:material_part:6"
+              ]
+            }
+          }
+        ]
+    },
+    {
+        "match": {
+          "blocks": {
+            "blocks": [
+              "rockhounding_oretiers:iron_ores:3"
+            ]
+          }
+        },
+        "drops": [
+          {
+            "selector": {
+              "silktouch": "EXCLUDED"
+            },
+            "item": {
+              "items": [
+                "contenttweaker:material_part:10"
+              ]
+            }
+          }
+        ]
+    },
+    {
+        "match": {
+          "blocks": {
+            "blocks": [
+              "rockhounding_oretiers:iron_ores:6"
+            ]
+          }
+        },
+        "drops": [
+          {
+            "selector": {
+              "silktouch": "EXCLUDED"
+            },
+            "item": {
+              "items": [
+                "contenttweaker:material_part:14"
+              ]
+            }
+          }
+        ]
+    },
+    {
+        "match": {
+          "blocks": {
+            "blocks": [
+              "immersiveengineering:ore:3",
+              "thermalfoundation:ore:2"
+            ]
+          }
+        },
+        "drops": [
+          {
+            "selector": {
+              "silktouch": "EXCLUDED"
+            },
+            "item": {
+              "items": [
+                "contenttweaker:material_part:24"
+              ]
+            }
+          },
+          {
+            "selector": {
+              "silktouch": "REQUIRED"
+            },
+            "item": {
+              "items": [
+                "immersiveengineering:ore:3"
+              ]
+            }
+          }
+        ]
+    },
+    {
+        "match": {
+          "blocks": {
+            "blocks": [
+              "astralsorcery:blockcustomore:1"
+            ]
+          }
+        },
+         "drops": [
+          {
+            "selector": {
+              "silktouch": "EXCLUDED"
+            },
+            "item": {
+              "items": [
+                "contenttweaker:material_part:26"
+              ]
+            }
+          }
+        ]
+    },
+    {
+        "match": {
+          "blocks": {
+            "blocks": [
+              "immersiveengineering:ore:4",
+              "thermalfoundation:ore:5"
+            ]
+          }
+        },
+ 
+        "drops": [
+          {
+            "selector": {
+              "silktouch": "EXCLUDED"
+            },
+            "item": {
+              "items": [
+                "contenttweaker:material_part:28"
+              ]
+            }
+          },
+          {
+            "selector": {
+              "silktouch": "REQUIRED"
+            },
+            "item": {
+              "items": [
+                "immersiveengineering:ore:4"
+              ]
+            }
+          }
+        ]
+    },
+    {
+        "match": {
+          "blocks": {
+            "blocks": [
+              "immersiveengineering:ore:5",
+              "ic2:resource:4"
+            ]
+          }
+        },
+ 
+        "drops": [
+          {
+            "selector": {
+              "silktouch": "EXCLUDED"
+            },
+            "item": {
+              "items": [
+                "contenttweaker:material_part:30"
+              ]
+            }
+          },
+          {
+            "selector": {
+              "silktouch": "REQUIRED"
+            },
+            "item": {
+              "items": [
+                "immersiveengineering:ore:5"
+              ]
+            }
+          }
+        ]
+    },
+    {
+        "match": {
+          "blocks": {
+            "blocks": [
+              "immersiveengineering:ore:2",
+              "galacticraftplanets:venus:8",
+              "moreplanets:fronos_ore:5"
+            ]
+          }
+        },
+ 
+        "drops": [
+          {
+            "selector": {
+              "silktouch": "EXCLUDED"
+            },
+            "item": {
+              "items": [
+                "contenttweaker:material_part:34"
+              ]
+            }
+          },
+          {
+            "selector": {
+              "silktouch": "REQUIRED"
+            },
+            "item": {
+              "items": [
+                "immersiveengineering:ore:2"
+              ]
+            }
+          }
+        ]
+    },
+    {
+        "match": {
+          "blocks": {
+            "blocks": [
+              "mekanism:oreblock"
+            ]
+          }
+        },
+        "drops": [
+          {
+            "selector": {
+              "silktouch": "EXCLUDED"
+            },
+            "item": {
+              "items": [
+                "contenttweaker:material_part:40"
+              ]
+            }
+          }
+        ]
+    },
+    {
+        "match": {
+          "blocks": {
+            "blocks": [
+              "abyssalcraft:abyore"
+            ]
+          }
+        },
+        "drops": [
+          {
+            "selector": {
+              "silktouch": "EXCLUDED"
+            },
+            "item": {
+              "items": [
+                "contenttweaker:material_part:46"
+              ]
+            }
+          }
+        ]
+    },
+    {
+        "match": {
+          "blocks": {
+            "blocks": [
+              "abyssalcraft:abyore"
+            ]
+          }
+        },
+        "drops": [
+          {
+            "selector": {
+              "silktouch": "EXCLUDED"
+            },
+            "item": {
+              "items": [
+                "contenttweaker:material_part:46"
+              ]
+            }
+          }
+        ]
+    },
+    {
+        "match": {
+          "blocks": {
+            "blocks": [
+              "immersiveengineering:ore:4"
+            ]
+          }
+        },
+        "drops": [
+          {
+            "selector": {
+              "silktouch": "EXCLUDED"
+            },
+            "item": {
+              "items": [
+                "contenttweaker:material_part:28"
+              ]
+            }
+          }
+        ]
+    },
+    {
+        "match": {
+          "blocks": {
+            "blocks": [
+              "minecraft:gold_ore",
+              "cyclicmagic:nether_gold_ore",
+              "moreplanets:koentus_block:5",
+              "moreplanets:nibiru_ore:2",
+              "moreplanets:fronos_ore:1",
+              "cyclicmagic:end_gold_ore",
+              "abyssalcraft:abygolore"
+            ]
+          }
+        },
+        "drops": [
+          {
+            "selector": {
+              "silktouch": "EXCLUDED"
+            },
+            "item": {
+              "items": [
+                "contenttweaker:material_part:36"
+              ]
+            }
+          }
+        ]
+    },
+    {
+        "match": {
+          "blocks": {
+            "blocks": [
+              "bigreactors:brore"
+            ]
+          }
+        },
+        "drops": [
+          {
+            "selector": {
+              "silktouch": "EXCLUDED"
+            },
+            "item": {
+              "items": [
+                "contenttweaker:material_part:38"
+              ]
+            }
+          }
+        ]
+    },
+    {
+        "match": {
+          "blocks": {
+            "blocks": [
+              "thermalfoundation:ore:7"
+            ]
+          }
+        },
+        "drops": [
+          {
+            "selector": {
+              "silktouch": "EXCLUDED"
+            },
+            "item": {
+              "items": [
+                "contenttweaker:material_part:42"
+              ]
+            }
+          }
+        ]
+    },
+    {
+        "match": {
+          "blocks": {
+            "blocks": [
+              "thermalfoundation:ore:6"
+            ]
+          }
+        },
+        "drops": [
+          {
+            "selector": {
+              "silktouch": "EXCLUDED"
+            },
+            "item": {
+              "items": [
+                "contenttweaker:material_part:44"
+              ]
+            }
+          }
+        ]
+    },
+    {
+        "match": {
+          "blocks": {
+            "blocks": [
+              "thermalfoundation:ore:6"
+            ]
+          }
+        },
+        "drops": [
+          {
+            "selector": {
+              "silktouch": "EXCLUDED"
+            },
+            "item": {
+              "items": [
+                "contenttweaker:material_part:44"
+              ]
+            }
+          }
+        ]
+    },
+    {
+        "match": {
+          "blocks": {
+            "blocks": [
+              "tconstruct:ore"
+            ]
+          }
+        },
+        "drops": [
+          {
+            "selector": {
+              "silktouch": "EXCLUDED"
+            },
+            "item": {
+              "items": [
+                "contenttweaker:material_part:48"
+              ]
+            }
+          }
+        ]
+    },
+    {
+        "match": {
+          "blocks": {
+            "blocks": [
+              "tconstruct:ore:1"
+            ]
+          }
+        },
+        "drops": [
+          {
+            "selector": {
+              "silktouch": "EXCLUDED"
+            },
+            "item": {
+              "items": [
+                "contenttweaker:material_part:50"
+              ]
+            }
+          }
+        ]
+    },
+    {
+        "match": {
+          "blocks": {
+            "blocks": [
+              "thermalfoundation:ore:8"
+            ]
+          }
+        },
+        "drops": [
+          {
+            "selector": {
+              "silktouch": "EXCLUDED"
+            },
+            "item": {
+              "items": [
+                "contenttweaker:material_part:55"
+              ]
+            }
+          }
+        ]
+    }
+  ]
+}
+

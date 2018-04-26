@@ -1,0 +1,76 @@
+{
+  "name": "shade",
+  "class": "com.lycanitesmobs.shadowmobs.entity.EntityShade",
+  "loadDefault": false,
+  "enabled": false,
+  "spawning": {
+    "enabled": false,
+    "spawners": [
+      "underground"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1
+    ],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": true,
+    "biomes": [
+      "-Darklands",
+      "-Darklands Forest",
+      "-Darklands Plains",
+      "-Darklands Highland",
+      "-Darklands Mountains",
+      "-Coralium Infested Swamp"
+    ],
+    "spawnWeight": 2,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 5,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 3,
+    "spawnsInLight": false,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 0.9,
+  "height": 2.8,
+  "experience": 15,
+  "health": 60,
+  "defense": 1,
+  "armor": 0,
+  "speed": 26,
+  "damage": 3,
+  "attackSpeed": 0.5,
+  "rangedSpeed": 1,
+  "effect": 5,
+  "amplifier": 0,
+  "pierce": 1,
+  "sight": 16,
+  "knockbackResistance": 0.5,
+  "eggBackColor": "#000402",
+  "eggForeColor": "#102336",
+  "subspecies": [
+    {
+      "index": 1,
+      "name": "keppel",
+      "type": "uncommon"
+    },
+    {
+      "index": 2,
+      "name": "russet",
+      "type": "uncommon"
+    }
+  ],
+  "element": "void",
+  "peaceful": false,
+  "summonable": false,
+  "tameable": true,
+  "mountable": true,
+  "summonCost": 4,
+  "dungeonLevel": 2,
+  "drops": [
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}

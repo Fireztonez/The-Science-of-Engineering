@@ -1,9 +1,9 @@
 
 recipes.remove(<bloodmagic:soul_snare>);
 recipes.addShaped("bloodmagic_RudimentarySnare", <bloodmagic:soul_snare>*2,
-  [[manaString,metals.tin.ingot,manaString],
-  [metals.tin.ingot,<betterwithaddons:tweakmat>,metals.tin.ingot],
-  [manaString,metals.tin.ingot,manaString]]);
+  [[manaString,<ore:ingotTin>,manaString],
+  [<ore:ingotTin>,<betterwithaddons:tweakmat>,<ore:ingotTin>],
+  [manaString,<ore:ingotTin>,manaString]]);
 
 recipes.remove(<bloodmagic:soul_forge>);
 recipes.addShaped("bloodmagic_HellfireForge", <bloodmagic:soul_forge>, 
@@ -22,5 +22,5 @@ recipes.addShaped("bloodmagic_bloodaltar", <bloodmagic:altar>,
 recipes.remove(<bloodmagic:altar>);
 recipes.addShapedMirrored("bloodmagic_SacrificialDagger", <bloodmagic:sacrificial_dagger>, 
 	[[null, null, <primal:sharp_bone>],
-	[null, metals.bronze.ingot, null],
-	[metals.bronze.ingot, null, null]]);
+	[<ore:ingotBronze>, <ore:blockGlass>, null],
+	[<ore:ingotBronze>, <ore:ingotBronze>, null]]);

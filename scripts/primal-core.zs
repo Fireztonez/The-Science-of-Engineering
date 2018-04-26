@@ -135,7 +135,14 @@ recipes.addShaped(<primal:slat_iron>, [[null,<ore:toolMallet>,null], [<minecraft
 recipes.remove(<primal:mud_clump>);
 
 recipes.remove(<primal:common_stone>);
-recipes.addShapedMirrored("pc_commonStone",<primal:common_stone>, [[<ore:stone>,<ore:cobblestone>],[<ore:cobblestone>,<ore:stone>]]); //Becose doesn't need 3 pages of recipes!!
+recipes.addShapedMirrored("pc_commonStone",<primal:common_stone>, [[<ore:stone>,<ore:cobblestone>],[<ore:cobblestone>,<ore:stone>]]); //Becose doesnt need 3 pages of recipes!!
+
+recipes.remove(<primal:leather_cordage>);
+recipes.addShapedMirrored("Leather_cordage",<primal:leather_cordage>,
+  [[null,<primal:leather_strip>],
+  [<primal:leather_strip>,str],
+  [null,<primal:leather_strip>]]);
+
 
 recipes.remove(<primal:storage_crate:*>);
 recipes.addShaped(<primal:storage_crate:0>,

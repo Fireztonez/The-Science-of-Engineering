@@ -24,19 +24,32 @@ static materials as Material[string] = {
   "starmetal": MaterialSystem.getMaterialBuilder().setName("Starmetal").setColor(Color.fromHex("030056")).build(),
   "nickel": MaterialSystem.getMaterialBuilder().setName("Nickel").setColor(Color.fromHex("9ba29b")).build(),
   "uranium": MaterialSystem.getMaterialBuilder().setName("Uranium").setColor(Color.fromHex("55724a")).build(),
-  "fireztonez": MaterialSystem.getMaterialBuilder().setName("Fireztonez").setColor(Color.fromHex("7c0001")).build(),
+  "lead": MaterialSystem.getMaterialBuilder().setName("Lead").setColor(Color.fromHex("38323B")).build(),//
+  "gold": MaterialSystem.getMaterialBuilder().setName("Gold").setColor(Color.fromHex("F9EB4A")).build(),//
+  "yellorite": MaterialSystem.getMaterialBuilder().setName("Yellorite").setColor(Color.fromHex("FBF800")).build(),//
+  #"resonating": MaterialSystem.getMaterialBuilder().setName("Resonating").setColor(Color.fromHex("55724a")).build(),//
+  "osmium": MaterialSystem.getMaterialBuilder().setName("Osmium").setColor(Color.fromHex("8B96AE")).build(),//
+  "iridium": MaterialSystem.getMaterialBuilder().setName("Iridium").setColor(Color.fromHex("B9B9D3")).build(),//
+  "platinum": MaterialSystem.getMaterialBuilder().setName("Platinum").setColor(Color.fromHex("34F4FC")).build(),//
+  "manainfused": MaterialSystem.getMaterialBuilder().setName("Mana Infused").setColor(Color.fromHex("6DFCFC")).build(),//
+  "abyssalnite": MaterialSystem.getMaterialBuilder().setName("Abyssalnite").setColor(Color.fromHex("42197B")).build(),//
+  "cobalt": MaterialSystem.getMaterialBuilder().setName("Cobalt").setColor(Color.fromHex("002F86")).build(),//
+  "ardite": MaterialSystem.getMaterialBuilder().setName("Ardite").setColor(Color.fromHex("C7A336")).build(),//
+  "redstone": MaterialSystem.getMaterialBuilder().setName("Redstone").setColor(Color.fromHex("FC0000")).build(),//
+  "lapis": MaterialSystem.getMaterialBuilder().setName("Lapis Lazuli").setColor(Color.fromHex("193BB2")).build(),//
+  "fireztonez": MaterialSystem.getMaterialBuilder().setName("Fireztonez").setColor(Color.fromHex("7c0001")).build(),//
   "mulberry": MaterialSystem.getMaterialBuilder().setName("Mulberry").setColor(Color.fromHex("b5892c")).build(),
   "magnesite": MaterialSystem.getMaterialBuilder().setName("Magnesite").setColor(Color.fromHex("C0D0D2")).build(),
   "magnesium": MaterialSystem.getMaterialBuilder().setName("Magnesium").setColor(Color.fromHex("C0D0D2")).build(),
-  "sphalerite": MaterialSystem.getMaterialBuilder().setName("Sphalerite").setColor(Color.fromHex("003094")).build(),
-  "zinc": MaterialSystem.getMaterialBuilder().setName("Zinc").setColor(Color.fromHex("868B89")).build(),
+  "sphalerite": MaterialSystem.getMaterialBuilder().setName("Sphalerite").setColor(Color.fromHex("C54E00")).build(),
+  "zinc": MaterialSystem.getMaterialBuilder().setName("Zinc").setColor(Color.fromHex("C3BFAB")).build(),
   "ga9": MaterialSystem.getMaterialBuilder().setName("G-A9").setColor(Color.fromHex("767676")).build(),
-  "al3zn": MaterialSystem.getMaterialBuilder().setName("Al3Zn").setColor(Color.fromHex("545454")).build(),
-  "greenSlime": MaterialSystem.getMaterialBuilder().setName("Green Slime").setColor(Color.fromHex("50B067")).build(),
-  "blueSlime": MaterialSystem.getMaterialBuilder().setName("Blue Slime").setColor(Color.fromHex("BEBB6E")).build(),
+  "al3zn": MaterialSystem.getMaterialBuilder().setName("Al3Zn").setColor(Color.fromHex("8B8B8B")).build(),
+  "greenSlime": MaterialSystem.getMaterialBuilder().setName("Green Slime").setColor(Color.fromHex("00C445")).build(),
+  "blueSlime": MaterialSystem.getMaterialBuilder().setName("Blue Slime").setColor(Color.fromHex("00C8CA")).build(),
   "whiteSlime": MaterialSystem.getMaterialBuilder().setName("White Slime").setColor(Color.fromHex("BFC2C1")).build(),
-  "magmaSlime": MaterialSystem.getMaterialBuilder().setName("Magma Slime").setColor(Color.fromHex("B7B84E")).build(),
-  "blood": MaterialSystem.getMaterialBuilder().setName("Blood").setColor(Color.fromHex("00003A")).build(),
+  "magmaSlime": MaterialSystem.getMaterialBuilder().setName("Magma Slime").setColor(Color.fromHex("FC940D")).build(),
+  "bloodyBlood": MaterialSystem.getMaterialBuilder().setName("Blood").setColor(Color.fromHex("2F0000")).build(),
   #-=- Add all bark
   "maple": MaterialSystem.getMaterialBuilder().setName("Maple Wood").setColor(Color.fromHex("000000")).build(),
   "silverbell": MaterialSystem.getMaterialBuilder().setName("Silverbell Wood").setColor(Color.fromHex("000000")).build(),

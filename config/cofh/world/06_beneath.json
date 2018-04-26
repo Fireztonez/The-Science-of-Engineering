@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+          "contenttweaker",
+          "actuallyadditions",
+          "astralsorcery"
+        ],
+  "populate": {
+    "BlackQuartz": {
+      "distribution": "uniform",
+      "generator": {
+        "block": [
+          {
+            "name": "actuallyadditions:block_misc",
+            "metadata": 3,
+            "weight": 25
+          }
+        ],
+        "material": "minecraft:stone",
+        "cluster-size": 8,
+      },
+      "cluster-count": 5,
+      "min-height": 3,
+      "max-height": 13,
+      "retrogen": "true",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          10
+        ]
+      }
+    },
+    "RockCrystal": {
+      "distribution": "uniform",
+      "chunk-chance": 6,
+      "cluster-count": 3,
+      "generator": {
+        "block": [
+          {
+            "name": "astralsorcery:blockcustomore",
+            "metadata": 0,
+            "weight": 0.5
+          }
+        ],
+        "material": "minecraft:stone",
+        "cluster-size": 5,
+      },
+      "cluster-count": 3,
+      "min-height": 245,
+      "max-height": 254,
+      "retrogen": "true",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          10
+        ]
+      }
+    }
+  }
+}

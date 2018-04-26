@@ -76,6 +76,8 @@ mods.jei.JEI.removeAndHide(<actuallyadditions:item_misc:10>);
 mods.jei.JEI.removeAndHide(<actuallyadditions:item_misc:11>);
 mods.jei.JEI.removeAndHide(<actuallyadditions:block_tiny_torch>);
 mods.jei.JEI.removeAndHide(<actuallyadditions:item_misc:4>);
+mods.jei.JEI.removeAndHide(<betterwithmods:raw_pastry:3>);
+mods.jei.JEI.removeAndHide(<natura:materials:2>);
 
 mods.jei.JEI.hide(<betterwithmods:stump:*>);
 

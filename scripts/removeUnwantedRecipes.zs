@@ -71,6 +71,10 @@ recipes.remove(<mekanism:basicblock:3>);
 
 recipes.remove(<primal:wheat_ground>);
 
+recipes.remove(<minecraft:dye:*>);
+
+
+
 recipes.removeByRecipeName("natura:common/wool");
 recipes.removeByRecipeName("quark:wool_1");
 recipes.removeByRecipeName("quark:wool_2");

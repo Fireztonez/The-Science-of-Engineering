@@ -46,7 +46,11 @@ global str as IItemStack = <minecraft:string>;
 global wool as IOreDictEntry = <ore:wool>;
 global water as IOreDictEntry = <ore:water>;
 global hempString as IItemStack = <betterwithmods:material:3>;
+global hempCloth as IItemStack = <betterwithmods:material:4>;
 global manaString as IItemStack = <botania:manaresource:16>;
 global hempCordage as IItemStack = <immersiveengineering:material:4>;
 global rope as IItemStack = <betterwithmods:rope>;
-
+global microDustAluminium as IItemStack = <contenttweaker:material_part:73>;
+global ingotAl3Zn as IItemStack = <contenttweaker:material_part:64>;
+global ingotGA9 as IItemStack = <contenttweaker:material_part:58>;
+global ingotMagnesium as IItemStack = <contenttweaker:material_part:46>;

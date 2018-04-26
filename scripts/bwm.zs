@@ -106,6 +106,9 @@ recipes.remove(<betterwithaddons:aqueduct:*>);
 recipes.remove(<betterwithmods:sand_pile:0>);
 recipes.remove(<betterwithmods:red_sand_pile:0>);
 
+recipes.remove(<betterwithmods:cooking_pot:1>);
+
+
 
 recipes.remove(<betterwithaddons:loom>);
 recipes.addShaped("bwm_spinningWheel",<betterwithaddons:loom>,
@@ -153,3 +156,10 @@ recipes.addShapedMirrored("bwm_redstoneEmitter",<betterwithaddons:redstone_emitt
   [rope,<botania:mushroom:14>,<ore:grates>],
   [<ore:sakuraWoodSiding>,<ore:sakuraWoodSiding>,<ore:sakuraWoodSiding>]]);
 
+recipes.addShaped("bwm_bagFlour", <betterwithaddons:bag:10>,
+  [[<horsepower:flour>,<horsepower:flour>,<horsepower:flour>],
+  [<horsepower:flour>,hempCloth ,<horsepower:flour>],
+  [<horsepower:flour>,<horsepower:flour>,<horsepower:flour>]]);
+
+hempCloth.giveBack(hempCloth);
+recipes.addShapeless("bwm_bagFlourToFlour", <horsepower:flour>*8, [<betterwithaddons:bag:10>]);
