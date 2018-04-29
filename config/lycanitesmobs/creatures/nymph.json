@@ -37,7 +37,7 @@
   "damage": 1,
   "attackSpeed": 1,
   "rangedSpeed": 0.25,
-  "effect": 0,
+  "effect": 1,
   "amplifier": 0,
   "pierce": 0,
   "sight": 16,
