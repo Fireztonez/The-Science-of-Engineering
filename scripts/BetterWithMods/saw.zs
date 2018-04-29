@@ -1,7 +1,7 @@
 import mods.betterwithmods.Saw;
 import crafttweaker.item.IItemStack;
 
-Saw.add(<minecraft:stone>,[stoneSiding * 2]);
+Saw.add(<minecraft:stone>,[<betterwithmods:siding_rock>.withTag({texture: {Properties: {variant: "stone"}, Name: "minecraft:stone"}}) * 2]);
 Saw.add(<natura:overworld_logs2:3>,[<natura:overworld_planks:7> * 4, <betterwithmods:material:22> * 1]);
 
 Saw.add(<abyssalcraft:dltlog>, [<abyssalcraft:dltplank>*4, <betterwithmods:material:22> * 1]);
@@ -20,19 +20,19 @@ Saw.add(<moreplanets:nibiru_log:3>, [<moreplanets:nibiru_planks:2>*4, <betterwit
 #Saw.remove([<natura:overworld_planks2:*> * 4, <betterwithmods:material:22> * 1, <betterwithmods:bark>]);
 #Saw.remove([<natura:overworld_planks:*> * 4, <betterwithmods:material:22> * 1, <betterwithmods:bark>]);
 
-Saw.add(<natura:overworld_logs:0> | <natura:overworld_logs:4> | <natura:overworld_logs:8>, [<natura:overworld_planks:0>*4, <betterwithmods:material:22> * 1, <contenttweaker:material_part:76>]);
-Saw.add(<natura:overworld_logs:1> | <natura:overworld_logs:5> | <natura:overworld_logs:9>, [<natura:overworld_planks:1>*4, <betterwithmods:material:22> * 1, <contenttweaker:material_part:77>]);
-Saw.add(<natura:overworld_logs:2> | <natura:overworld_logs:6> | <natura:overworld_logs:10>, [<natura:overworld_planks:2>*4, <betterwithmods:material:22> * 1, <contenttweaker:material_part:78>]);
-Saw.add(<natura:overworld_logs:3> | <natura:overworld_logs:7> | <natura:overworld_logs:11>, [<natura:overworld_planks:3>*4, <betterwithmods:material:22> * 1, <contenttweaker:material_part:79>]);
-Saw.add(<natura:overworld_logs2:0> | <natura:overworld_logs2:4> | <natura:overworld_logs2:8>, [<natura:overworld_planks:4>*4, <betterwithmods:material:22> * 1, <contenttweaker:material_part:80>]);
-Saw.add(<natura:overworld_logs2:1> | <natura:overworld_logs2:5> | <natura:overworld_logs2:9>, [<natura:overworld_planks:5>*4, <betterwithmods:material:22> * 1, <contenttweaker:material_part:81>]);
-Saw.add(<natura:overworld_logs2:2> | <natura:overworld_logs2:6> | <natura:overworld_logs2:10>, [<natura:overworld_planks:6>*4, <betterwithmods:material:22> * 1, <contenttweaker:material_part:82>]);
-Saw.add(<natura:overworld_logs2:3> | <natura:overworld_logs2:7> | <natura:overworld_logs2:11>, [<natura:overworld_planks:7>*4, <betterwithmods:material:22> * 1, <contenttweaker:material_part:83>]);
+Saw.add(<natura:overworld_logs:0> | <natura:overworld_logs:4> | <natura:overworld_logs:8>, [<natura:overworld_planks:0>*4, <betterwithmods:material:22> * 1]);
+Saw.add(<natura:overworld_logs:1> | <natura:overworld_logs:5> | <natura:overworld_logs:9>, [<natura:overworld_planks:1>*4, <betterwithmods:material:22> * 1]);
+Saw.add(<natura:overworld_logs:2> | <natura:overworld_logs:6> | <natura:overworld_logs:10>, [<natura:overworld_planks:2>*4, <betterwithmods:material:22> * 1]);
+Saw.add(<natura:overworld_logs:3> | <natura:overworld_logs:7> | <natura:overworld_logs:11>, [<natura:overworld_planks:3>*4, <betterwithmods:material:22> * 1]);
+Saw.add(<natura:overworld_logs2:0> | <natura:overworld_logs2:4> | <natura:overworld_logs2:8>, [<natura:overworld_planks:4>*4, <betterwithmods:material:22> * 1]);
+Saw.add(<natura:overworld_logs2:1> | <natura:overworld_logs2:5> | <natura:overworld_logs2:9>, [<natura:overworld_planks:5>*4, <betterwithmods:material:22> * 1]);
+Saw.add(<natura:overworld_logs2:2> | <natura:overworld_logs2:6> | <natura:overworld_logs2:10>, [<natura:overworld_planks:6>*4, <betterwithmods:material:22> * 1]);
+Saw.add(<natura:overworld_logs2:3> | <natura:overworld_logs2:7> | <natura:overworld_logs2:11>, [<natura:overworld_planks:7>*4, <betterwithmods:material:22> * 1]);
 Saw.add(<natura:redwood_logs:1>, [<natura:overworld_planks:8>*4, <betterwithmods:material:22> * 1]);
-Saw.add(<natura:nether_logs:0> | <natura:nether_logs:4> | <natura:nether_logs:8>, [<natura:nether_planks:0>*4, <betterwithmods:material:22> * 1, <contenttweaker:material_part:84>]);
-Saw.add(<natura:nether_logs:1> | <natura:nether_logs:5> | <natura:nether_logs:9>, [<natura:nether_planks:2>*4, <betterwithmods:material:22> * 1, <contenttweaker:material_part:85>]);
-Saw.add(<natura:nether_logs:2> | <natura:nether_logs:6> | <natura:nether_logs:10>, [<natura:nether_planks:3>*4, <betterwithmods:material:22> * 1, <contenttweaker:material_part:86>]);
-Saw.add(<natura:nether_logs2:*>, [<natura:nether_planks:1>*4, <betterwithmods:material:23> * 1, <contenttweaker:material_part:86>]);
+Saw.add(<natura:nether_logs:0> | <natura:nether_logs:4> | <natura:nether_logs:8>, [<natura:nether_planks:0>*4, <betterwithmods:material:22> * 1]);
+Saw.add(<natura:nether_logs:1> | <natura:nether_logs:5> | <natura:nether_logs:9>, [<natura:nether_planks:2>*4, <betterwithmods:material:22> * 1]);
+Saw.add(<natura:nether_logs:2> | <natura:nether_logs:6> | <natura:nether_logs:10>, [<natura:nether_planks:3>*4, <betterwithmods:material:22> * 1]);
+Saw.add(<natura:nether_logs2:*>, [<natura:nether_planks:1>*4, <betterwithmods:material:23> * 1]);
 Saw.add(<primal:logs_stripped:0>, [<minecraft:planks>*4, <betterwithmods:material:22> * 1]);
 Saw.add(<primal:logs_stripped:1>, [<minecraft:planks:1>*4, <betterwithmods:material:22> * 1]);
 Saw.add(<primal:logs_stripped:2>, [<minecraft:planks:2>*4, <betterwithmods:material:22> * 1]);
@@ -70,3 +70,19 @@ Saw.add(<primal:logs_stacked:5>, [<primal:logs_split_bigoak>*9]);
 Saw.add(<primal:logs_stacked:6>, [<primal:logs_split_ironwood>*9]);
 Saw.add(<primal:logs_stacked:7>, [<primal:logs_split_yew>*9]);
 
+Saw.add(<betterwithmods:siding_rock>.withTag({texture: {Properties: {variant: "oak"}, Name: "rockhounding_surface:fossil_planks"}}) *2, [<rockhounding_surface:fossil_planks:0>]);
+Saw.add(<betterwithmods:siding_rock>.withTag({texture: {Properties: {variant: "spruce"}, Name: "rockhounding_surface:fossil_planks"}}) *2, [<rockhounding_surface:fossil_planks:1>]);
+Saw.add(<betterwithmods:siding_rock>.withTag({texture: {Properties: {variant: "kauri"}, Name: "rockhounding_surface:fossil_planks"}}) *2, [<rockhounding_surface:fossil_planks:2>]);
+Saw.add(<betterwithmods:siding_rock>.withTag({texture: {Properties: {variant: "mophane"}, Name: "rockhounding_surface:fossil_planks"}}) *2, [<rockhounding_surface:fossil_planks:3>]);
+Saw.add(<betterwithmods:siding_rock>.withTag({texture: {Properties: {variant: "palm"}, Name: "rockhounding_surface:fossil_planks"}}) *2, [<rockhounding_surface:fossil_planks:4>]);
+Saw.add(<betterwithmods:siding_rock>.withTag({texture: {Properties: {variant: "pine"}, Name: "rockhounding_surface:fossil_planks"}}) *2, [<rockhounding_surface:fossil_planks:5>]);
+Saw.add(<betterwithmods:siding_rock>.withTag({texture: {Properties: {variant: "driftwood"}, Name: "rockhounding_surface:fossil_planks"}}) *2, [<rockhounding_surface:fossil_planks:6>]);
+Saw.add(<betterwithmods:siding_rock>.withTag({texture: {Properties: {variant: "araucaria"}, Name: "rockhounding_surface:fossil_planks"}}) *2, [<rockhounding_surface:fossil_planks:7>]);
+Saw.add(<betterwithmods:siding_rock>.withTag({texture: {Properties: {variant: "betula"}, Name: "rockhounding_surface:fossil_planks"}}) *2, [<rockhounding_surface:fossil_planks:8>]);
+Saw.add(<betterwithmods:siding_rock>.withTag({texture: {Properties: {variant: "castano"}, Name: "rockhounding_surface:fossil_planks"}}) *2, [<rockhounding_surface:fossil_planks:9>]);
+Saw.add(<betterwithmods:siding_rock>.withTag({texture: {Properties: {variant: "opalized"}, Name: "rockhounding_surface:fossil_planks"}}) *2, [<rockhounding_surface:fossil_planks:10>]);
+Saw.add(<betterwithmods:siding_rock>.withTag({texture: {Properties: {variant: "rainbow"}, Name: "rockhounding_surface:fossil_planks"}}) *2, [<rockhounding_surface:fossil_planks:11>]);
+Saw.add(<betterwithmods:siding_rock>.withTag({texture: {Properties: {variant: "azurite"}, Name: "rockhounding_surface:fossil_planks"}}) *2, [<rockhounding_surface:fossil_planks:12>]);
+Saw.add(<betterwithmods:siding_rock>.withTag({texture: {Properties: {variant: "teredo"}, Name: "rockhounding_surface:fossil_planks"}}) *2, [<rockhounding_surface:fossil_planks:13>]);
+Saw.add(<betterwithmods:siding_rock>.withTag({texture: {Properties: {variant: "beech"}, Name: "rockhounding_surface:fossil_planks"}}) *2, [<rockhounding_surface:fossil_planks:14>]);
+Saw.add(<betterwithmods:siding_rock>.withTag({texture: {Properties: {variant: "redwood"}, Name: "rockhounding_surface:fossil_planks"}}) *2, [<rockhounding_surface:fossil_planks:15>]);

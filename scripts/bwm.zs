@@ -32,6 +32,12 @@ furnace.remove(<minecraft:brick>);
 recipes.remove(<minecraft:netherbrick>);
 furnace.remove(<minecraft:netherbrick>);
 
+recipes.remove(<betterwithaddons:bolt:5>);
+recipes.remove(<betterwithaddons:bolt:4>);
+recipes.remove(<betterwithaddons:bolt:3>);
+recipes.remove(<betterwithaddons:bolt:2>);
+recipes.remove(<betterwithaddons:bolt>);
+
 //Rice to Rice Flour
 mods.betterwithmods.Mill.add(<betterwithaddons:japanmat:4>, null, [<actuallyadditions:item_food:16>]);
 
@@ -121,9 +127,9 @@ recipes.addShaped("bwm_spindle", <betterwithaddons:spindle>, [[<ore:logSplit>],[
 
 recipes.remove(<betterwithmods:wooden_gearbox>);
 recipes.addShaped("bwm_wooden-gearbox",<betterwithmods:wooden_gearbox>,
-  [[<ore:sidingWood>,<betterwithmods:material>,<ore:sidingWood>],
+  [[sidingPlankWood,<betterwithmods:material>,sidingPlankWood],
   [<thermalfoundation:material:320>,<betterwithmods:rope>,<thermalfoundation:material:320>],
-  [<ore:sidingWood>,<betterwithmods:material>,<ore:sidingWood>]]);
+  [sidingPlankWood,<betterwithmods:material>,sidingPlankWood]]);
 
 recipes.remove(<betterwithmods:material:32>);
 recipes.addShapeless("bwm_tanned-leather-cut", <betterwithmods:material:32>*8, [<betterwithaddons:bolt:5>,<primal:flint_shears>.anyDamage()]); //To-Do - Fix later for any shears..
@@ -154,7 +160,7 @@ recipes.addShaped("bwm_wickerSingle", <betterwithmods:wicker>,
 recipes.addShapedMirrored("bwm_redstoneEmitter",<betterwithaddons:redstone_emitter>,
   [[<betterwithmods:aesthetic:12>,<betterwithmods:aesthetic:12>,<betterwithmods:aesthetic:12>],
   [rope,<botania:mushroom:14>,<ore:grates>],
-  [<ore:sakuraWoodSiding>,<ore:sakuraWoodSiding>,<ore:sakuraWoodSiding>]]);
+  [sidingSakuraWood,sidingSakuraWood,sidingSakuraWood]]);
 
 recipes.addShaped("bwm_bagFlour", <betterwithaddons:bag:10>,
   [[<horsepower:flour>,<horsepower:flour>,<horsepower:flour>],
@@ -163,3 +169,18 @@ recipes.addShaped("bwm_bagFlour", <betterwithaddons:bag:10>,
 
 hempCloth.giveBack(hempCloth);
 recipes.addShapeless("bwm_bagFlourToFlour", <horsepower:flour>*8, [<betterwithaddons:bag:10>]);
+
+recipes.remove(<betterwithmods:single_machine:3>);
+recipes.addShaped("bwm_turnTable1",<betterwithmods:single_machine:3>,
+  [[sidingSwampKauriWood,sidingSwampKauriWood,sidingSwampKauriWood],
+  [stone,<ore:gearBronze>,stone],
+  [stone,<betterwithmods:wooden_axle>,stone]]);
+recipes.addShaped("bwm_turnTable2",<betterwithmods:single_machine:3>,
+  [[sidingSwampKauriWood,sidingSwampKauriWood,sidingSwampKauriWood],
+  [stone,<ore:gearBronze>,stone],
+  [stone,<betterwithmods:wooden_axle>,stone]]);
+
+recipes.addShaped("bwm_bellows", <betterwithmods:bellows>,
+  [[sidingSwampKauriWood, sidingSwampKauriWood, sidingSwampKauriWood],
+  [<betterwithmods:material:32>, <betterwithmods:material:32>, <betterwithmods:material:32>],
+  [<ore:hideBelt>, <ore:gearWood>, <ore:hideBelt>]]);

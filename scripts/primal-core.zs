@@ -291,4 +291,4 @@ recipes.addShaped("pc_thatch-allRushes", <primal:thatching_wet>,
 recipes.addShaped("pc_thatch_wet", <primal:thatch_wet>, [[<ore:thatchingWet>, <ore:thatchingWet>, <ore:thatchingWet>], [<ore:thatchingWet>, <ore:cordagePlant>, <ore:thatchingWet>], [<ore:thatchingWet>, <ore:thatchingWet>, <ore:thatchingWet>]]);
 
 recipes.remove(<primal:torch_wood>);
-recipes.addShaped("pc_torchWood_unlit", <primal:torch_wood>*2, [[<ore:clumpFuel>],[cordage],[stick]]);
+recipes.addShapeless("pc_torchWood_unlit", <primal:torch_wood>*2, [<ore:clumpFuel>,cordage,stick]);

@@ -14,14 +14,15 @@ import crafttweaker.item.IIngredient;
 		plate: ITEM_STACK,
 		rod: ITEM_STACK
 	}
-*/
-global metals as IIngredient[string][string] = {
+	*/
+
+global metalItems as IIngredient[string][string] = {
 	abyssalnite: {
 		block: <abyssalcraft:ingotblock>,
 		//dust: <acintegration:dust>,
 		gear: null,
 		ingot: <abyssalcraft:abyingot>,
-		//liquid: <liquid:moltenabyssalnite>,
+		liquid: <liquid:moltenabyssalnite>,
 		nugget: <abyssalcraft:ingotnugget>,
 		plate: null,
 		rod: null

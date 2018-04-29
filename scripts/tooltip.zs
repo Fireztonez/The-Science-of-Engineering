@@ -7,3 +7,6 @@
 <betterwithaddons:adobe:13>.addTooltip(format.green("Dried in the world"));
 <betterwithaddons:adobe:14>.addTooltip(format.green("Dried in the world"));
 <betterwithaddons:adobe:15>.addTooltip(format.green("Dried in the world"));
+
+
+<tcomplement:porcelain_melter:8>.addTooltip(format.yellow("Heat Temperature: 500°"));

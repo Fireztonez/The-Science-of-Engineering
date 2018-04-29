@@ -24,6 +24,9 @@ import crafttweaker.item.IItemTransformer;
 #ore ore:dustWheat
 <ore:dustWheat>.remove(<appliedenergistics2:material:4>);
 
+<ore:stickWood>.remove(<betterwithmods:shaft>);
+
+
 #ore:logWood
 <ore:logWood>.add(<primal:logs>);
 <ore:logWood>.add(<rockhounding_surface:bog_logs:*>);
@@ -48,6 +51,21 @@ import crafttweaker.item.IItemTransformer;
 <ore:logSakura>.add(<natura:overworld_logs2:3>);
 <ore:logSakura>.add(<betterwithaddons:log_sakura>);
 
+#plank woods
+#Vanilla
+<ore:plankOak>.add(<minecraft:planks:0>,<chisel:planks-oak:1>,<chisel:planks-oak:2>,<chisel:planks-oak:3>,<chisel:planks-oak:4>,<chisel:planks-oak:5>,<chisel:planks-oak:6>,<chisel:planks-oak:7>,<chisel:planks-oak:8>,<chisel:planks-oak:9>,<chisel:planks-oak:10>,<chisel:planks-oak:11>,<chisel:planks-oak:12>,<chisel:planks-oak:13>,<chisel:planks-oak:14>,<chisel:planks-oak>);
+<ore:plankSpruce>.add(<minecraft:planks:1>,<chisel:planks-spruce:1>,<chisel:planks-spruce:2>,<chisel:planks-spruce:3>,<chisel:planks-spruce:4>,<chisel:planks-spruce:5>,<chisel:planks-spruce:6>,<chisel:planks-spruce:7>,<chisel:planks-spruce:8>,<chisel:planks-spruce:9>,<chisel:planks-spruce:10>,<chisel:planks-spruce:11>,<chisel:planks-spruce:12>,<chisel:planks-spruce:13>,<chisel:planks-spruce:14>,<chisel:planks-spruce>);
+<ore:plankBirch>.add(<minecraft:planks:2>,<chisel:planks-birch:1>,<chisel:planks-birch:2>,<chisel:planks-birch:3>,<chisel:planks-birch:4>,<chisel:planks-birch:5>,<chisel:planks-birch:6>,<chisel:planks-birch:7>,<chisel:planks-birch:8>,<chisel:planks-birch:9>,<chisel:planks-birch:10>,<chisel:planks-birch:11>,<chisel:planks-birch:12>,<chisel:planks-birch:13>,<chisel:planks-birch:14>,<chisel:planks-birch>);
+<ore:plankJungle>.add(<minecraft:planks:3>,<chisel:planks-jungle:1>,<chisel:planks-jungle:2>,<chisel:planks-jungle:3>,<chisel:planks-jungle:4>,<chisel:planks-jungle:5>,<chisel:planks-jungle:6>,<chisel:planks-jungle:7>,<chisel:planks-jungle:8>,<chisel:planks-jungle:9>,<chisel:planks-jungle:10>,<chisel:planks-jungle:11>,<chisel:planks-jungle:12>,<chisel:planks-jungle:13>,<chisel:planks-jungle:14>,<chisel:planks-jungle>);
+<ore:plankAcacia>.add(<minecraft:planks:4>,<chisel:planks-acacia:1>,<chisel:planks-acacia:2>,<chisel:planks-acacia:3>,<chisel:planks-acacia:4>,<chisel:planks-acacia:5>,<chisel:planks-acacia:6>,<chisel:planks-acacia:7>,<chisel:planks-acacia:8>,<chisel:planks-acacia:9>,<chisel:planks-acacia:10>,<chisel:planks-acacia:11>,<chisel:planks-acacia:12>,<chisel:planks-acacia:13>,<chisel:planks-acacia:14>,<chisel:planks-acacia>);
+<ore:plankDarkOak>.add(<minecraft:planks:5>,<chisel:planks-dark-oak:1>,<chisel:planks-dark-oak:2>,<chisel:planks-dark-oak:3>,<chisel:planks-dark-oak:4>,<chisel:planks-dark-oak:5>,<chisel:planks-dark-oak:6>,<chisel:planks-dark-oak:7>,<chisel:planks-dark-oak:8>,<chisel:planks-dark-oak:9>,<chisel:planks-dark-oak:10>,<chisel:planks-dark-oak:11>,<chisel:planks-dark-oak:12>,<chisel:planks-dark-oak:13>,<chisel:planks-dark-oak:14>,<chisel:planks-dark-oak>);
+#Natura
+<ore:plankSakura>.add(<betterwithaddons:planks_sakura>,<natura:overworld_planks:7>);
+#Rockhounding
+<ore:plankKauri>.add(<rockhounding_surface:fossil_planks:2>,<rockhounding_surface:kauri_chiseled:*>);
+<ore:plankTeredo>.add(<rockhounding_surface:fossil_planks:13>,<rockhounding_surface:teredo_chiseled:*>);
+
+
 #ore:plankWood
 <ore:plankWood>.add(<primal:planks:*>,<immersiveengineering:treated_wood:*>);
 <ore:plankWood>.add(<rockhounding_surface:fossil_planks:*>,<rockhounding_surface:oak_chiseled:*>,<rockhounding_surface:spruce_chiseled:*>,<rockhounding_surface:kauri_chiseled:*>,<rockhounding_surface:mophane_chiseled:*>,<rockhounding_surface:palm_chiseled:*>,<rockhounding_surface:pine_chiseled:*>,<rockhounding_surface:driftwood_chiseled:*>,<rockhounding_surface:araucaria_chiseled:*>,<rockhounding_surface:betula_chiseled:*>,<rockhounding_surface:castano_chiseled:*>,<rockhounding_surface:azurite_chiseled:*>,<rockhounding_surface:beech_chiseled:*>,<rockhounding_surface:teredo_chiseled:*>,<rockhounding_surface:redwood_chiseled:*>);
@@ -65,6 +83,10 @@ import crafttweaker.item.IItemTransformer;
 <ore:allSaw>.add(<primal:emerald_saw>);
 <ore:allSaw>.add(<betterwithmods:steel_hacksaw>);
 <ore:allSaw>.add(<betterwithaddons:steel_carpentersaw>);
+
+
+<ore:hideTanned>.remove(<primal:hide_tanned>);
+
 
 #ore:toolAxe
 <ore:toolAxe>.add(<natura:ghostwood_axe>);

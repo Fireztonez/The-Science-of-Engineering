@@ -25,7 +25,6 @@ var dirtyPart = mods.contenttweaker.MaterialSystem.getPartBuilder().setName("dir
 
 var chunkPiecePartNames as string[] = [
   "ore_chunk",
-  "ore_piece"
 ];
 
 materials.magnetite.registerParts(chunkPiecePartNames);
@@ -47,32 +46,42 @@ materials.lead.registerParts(chunkPiecePartNames);
 materials.gold.registerParts(chunkPiecePartNames);
 materials.yellorite.registerParts(chunkPiecePartNames);
 //materials.resonating.registerParts(chunkPiecePartNames);
-materials.osmium.registerParts(chunkPiecePartNames);
+//materials.osmium.registerParts(chunkPiecePartNames);
 materials.iridium.registerParts(chunkPiecePartNames);
 materials.platinum.registerParts(chunkPiecePartNames);
-materials.abyssalnite.registerParts(chunkPiecePartNames);
+
 materials.cobalt.registerParts(chunkPiecePartNames);
 materials.ardite.registerParts(chunkPiecePartNames);
 
 var chunkPieceMoltenPartNames as string[] = [
   "ore_chunk",
-  "ore_piece",
   "molten"
 ];
 materials.osmium.registerParts(chunkPieceMoltenPartNames);
 materials.manainfused.registerParts(chunkPieceMoltenPartNames);
 
+var plateGearPartNames as string[] = [
+  "plate",
+  "gear"
+];
+materials.osmium.registerParts(plateGearPartNames);
+
+
 var oreChunkPiecePartNames as string[] = [
   "ore",
   "ore_chunk",
-  "ore_piece"
 ];
 materials.magnesite.registerParts(oreChunkPiecePartNames);
+
+var chunkGearParts as string[] = [
+  "ore_chunk",
+  "plate"
+];
+materials.abyssalnite.registerParts(chunkGearParts);
 
 var allBasicWithChunkPartNames as string[] = [
   "ore",
   "ore_chunk",
-  "ore_piece",
   "nugget",
   "ingot",
   "block",
@@ -93,7 +102,6 @@ materials.magnesium.registerParts(basicAlloyParts);
 materials.zinc.registerParts(basicAlloyParts);
 materials.ga9.registerParts(basicAlloyParts);
 materials.al3zn.registerParts(basicAlloyParts);
-
 
 var oreCrystalParts as string[] = [
   "ore",

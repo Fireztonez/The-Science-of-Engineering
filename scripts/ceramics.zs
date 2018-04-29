@@ -48,3 +48,9 @@ recipes.addShaped("ceramics_rawClayLeggings",<ceramics:clay_leggings_raw>,
 recipes.addShaped("ceramics_rawClayBoots",<ceramics:clay_boots_raw>,
   [[clayball, null, clayball],
   [clayball, null, clayball]]);
+
+recipes.remove(<ceramics:clay_barrel_unfired>);
+recipes.addShaped("ceramics_rawClayBarrel",<ceramics:clay_barrel_unfired>,
+  [[<minecraft:clay_ball>,null,<minecraft:clay_ball>],
+  [<minecraft:clay_ball>,null,<minecraft:clay_ball>],
+  [<minecraft:clay_ball>,<minecraft:clay_ball>,<minecraft:clay_ball>]]);

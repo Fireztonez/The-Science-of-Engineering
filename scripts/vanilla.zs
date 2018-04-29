@@ -37,8 +37,8 @@ recipes.remove(<minecraft:clay>);
 recipes.addShaped("mcSand",<minecraft:clay>,[[<minecraft:clay_ball>,<minecraft:clay_ball>,<minecraft:clay_ball>],[<minecraft:clay_ball>,<ore:sand>,<minecraft:clay_ball>],[<minecraft:clay_ball>,<minecraft:clay_ball>,<minecraft:clay_ball>]]);
 
 recipes.remove(<minecraft:chest>);
-recipes.addShaped("mcChest", <minecraft:chest>, [[<ore:sakuraWoodSiding>,<ore:sakuraWoodSiding>,<ore:sakuraWoodSiding>],[null,<primalchests:primal_chest_advanced>, null],[<ore:sakuraWoodSiding>,<ore:sakuraWoodSiding>,<ore:sakuraWoodSiding>]]);
-recipes.addShaped("mcChest2", <minecraft:chest>, [[<ore:sakuraWoodSiding>,<ore:sakuraWoodSiding>,<ore:sakuraWoodSiding>],[<ore:sakuraWoodSiding>,<ore:plateIron>, <ore:sakuraWoodSiding>],[<ore:sakuraWoodSiding>,<ore:sakuraWoodSiding>,<ore:sakuraWoodSiding>]]);
+recipes.addShaped("mcChest", <minecraft:chest>, [[sidingSakuraWood,sidingSakuraWood,sidingSakuraWood],[null,<primalchests:primal_chest_advanced>, null],[sidingSakuraWood,sidingSakuraWood,sidingSakuraWood]]);
+recipes.addShaped("mcChest2", <minecraft:chest>, [[sidingSakuraWood,sidingSakuraWood,sidingSakuraWood],[sidingSakuraWood,<ore:plateIron>, sidingSakuraWood],[sidingSakuraWood,sidingSakuraWood,sidingSakuraWood]]);
 
 recipes.remove(<minecraft:lead>);
 recipes.addShapedMirrored("mcLeadRecipes", <minecraft:lead>, [[<primal:leather_cordage>,null,null],[<primal:leather_cordage>, <ore:string>, null], [null, null, <primal:leather_cordage>]]);
@@ -64,17 +64,17 @@ recipes.addShaped("vanilla_web", <minecraft:web>,
 //recipes.addShaped(<immersivepetroleum:upgrades:4>, [[<immersiveengineering:material>, null, <immersiveengineering:material>], [<immersiveengineering:material>, null, <immersiveengineering:material>], [<betterwithengineering:ie_siding>, null, <betterwithengineering:ie_siding>]]);
 
 
-recipes.addShaped("soe_vanillaBoatOak",<minecraft:boat>, [[<betterwithmods:wood_siding>, <minecraft:wooden_shovel>, <betterwithmods:wood_siding>], [<betterwithmods:wood_siding>, <betterwithmods:wood_siding>, <betterwithmods:wood_siding>]]);
+recipes.addShaped("soe_vanillaBoatOak",<minecraft:boat>, [[sidingOakWood, <minecraft:wooden_shovel>, sidingOakWood], [sidingOakWood, sidingOakWood, sidingOakWood]]);
 
-recipes.addShaped("soe_vanillaBoatSpruce",<minecraft:spruce_boat>, [[<betterwithmods:wood_siding:1>, <immersivepetroleum:upgrades:4>, <betterwithmods:wood_siding:1>], [<betterwithmods:wood_siding:1>, <betterwithmods:wood_siding:1>, <betterwithmods:wood_siding:1>]]);
+recipes.addShaped("soe_vanillaBoatSpruce",<minecraft:spruce_boat>, [[sidingSpruceWood, <immersivepetroleum:upgrades:4>, sidingSpruceWood], [sidingSpruceWood, sidingSpruceWood, sidingSpruceWood]]);
 
-recipes.addShaped("soe_vanillaBoatBirch",<minecraft:birch_boat>, [[<betterwithmods:wood_siding:2>, <immersivepetroleum:upgrades:4>, <betterwithmods:wood_siding:2>], [<betterwithmods:wood_siding:2>, <betterwithmods:wood_siding:2>, <betterwithmods:wood_siding:2>]]);
+recipes.addShaped("soe_vanillaBoatBirch",<minecraft:birch_boat>, [[sidingBirchWood, <immersivepetroleum:upgrades:4>, sidingBirchWood], [sidingBirchWood, sidingBirchWood, sidingBirchWood]]);
 
-recipes.addShaped("soe_vanillaBoatJungle",<minecraft:jungle_boat>, [[<betterwithmods:wood_siding:3>, <immersivepetroleum:upgrades:4>, <betterwithmods:wood_siding:3>], [<betterwithmods:wood_siding:3>, <betterwithmods:wood_siding:3>, <betterwithmods:wood_siding:3>]]);
+recipes.addShaped("soe_vanillaBoatJungle",<minecraft:jungle_boat>, [[sidingJungleWood, <immersivepetroleum:upgrades:4>, sidingJungleWood], [sidingJungleWood, sidingJungleWood, sidingJungleWood]]);
 
-recipes.addShaped("soe_vanillaBoatAcacia",<minecraft:acacia_boat>, [[<betterwithmods:wood_siding:4>, <immersivepetroleum:upgrades:4>, <betterwithmods:wood_siding:4>], [<betterwithmods:wood_siding:4>, <betterwithmods:wood_siding:4>, <betterwithmods:wood_siding:4>]]);
+recipes.addShaped("soe_vanillaBoatAcacia",<minecraft:acacia_boat>, [[sidingAcaciaWood, <immersivepetroleum:upgrades:4>, sidingAcaciaWood], [sidingAcaciaWood, sidingAcaciaWood, sidingAcaciaWood]]);
 
-recipes.addShaped("soe_vanillaBoatDarkOak",<minecraft:dark_oak_boat>, [[<betterwithmods:wood_siding:5>, <immersivepetroleum:upgrades:4>, <betterwithmods:wood_siding:5>], [<betterwithmods:wood_siding:5>, <betterwithmods:wood_siding:5>, <betterwithmods:wood_siding:5>]]);
+recipes.addShaped("soe_vanillaBoatDarkOak",<minecraft:dark_oak_boat>, [[sidingDarkOakWood, <immersivepetroleum:upgrades:4>, sidingDarkOakWood], [sidingDarkOakWood, sidingDarkOakWood, sidingDarkOakWood]]);
 
 recipes.remove(<minecraft:clock>);
 recipes.addShaped("soe_vanillaClock", <minecraft:clock>, [[null, metals.gold.plate, null],[metals.gold.plate, <betterwithmods:material:49>, metals.gold.plate],[null, metals.gold.plate, null]]);
@@ -109,9 +109,8 @@ recipes.addShaped(<minecraft:book>,
 recipes.removeByRecipeName("natura:common/string");
 recipes.removeByRecipeName("immersiveengineering:material/string");
 
-recipes.addShaped("vanilla_cotton-to-string", <minecraft:string>*2,
-  [[<natura:materials:3>,<natura:materials:3>,<natura:materials:3>],
-  [null, <ore:toolWorkBlade>, null]]);
+recipes.addShapeless("vanilla_cotton-to-string", <minecraft:string>*2,
+  [<natura:materials:3>,<natura:materials:3>,<natura:materials:3>,<ore:toolWorkBlade>]);
 
 recipes.remove(<minecraft:saddle>);
 recipes.addShaped("vanilla_Saddle", <minecraft:saddle>, [[leather,leather,leather],[str,str,str]]);

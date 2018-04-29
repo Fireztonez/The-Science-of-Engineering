@@ -93,5 +93,7 @@ furnace.remove(<thermalfoundation:material:164>);
 furnace.remove(<tconstruct:ingots>);
 furnace.remove(<tconstruct:ingots:1>);
 furnace.remove(<minecraft:log:3>);
+furnace.remove(<ceramics:clay_barrel>);
+furnace.remove(<ceramics:clay_barrel:1>);
 
 furnace.remove(<betterwithaddons:tweakmat>);//Because it's no longer ash!!

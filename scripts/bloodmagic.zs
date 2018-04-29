@@ -9,7 +9,7 @@ recipes.remove(<bloodmagic:soul_forge>);
 recipes.addShaped("bloodmagic_HellfireForge", <bloodmagic:soul_forge>, 
   [[metals.tin.ingot, <ceramics:unfired_clay:5>, metals.tin.ingot],
   [<abyssalcraft:stone>, <bloodmagic:soul_snare>, <abyssalcraft:stone>],
-  [<abyssalcraft:stone>, <ore:copperBlock>, <abyssalcraft:stone>]]);
+  [<abyssalcraft:stone>, <ore:blockCopper>, <abyssalcraft:stone>]]);
 
 recipes.remove(<bloodmagic:blood_orb>);
 
